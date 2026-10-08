@@ -1,0 +1,96 @@
+{
+  "instance_id": "tuskyapp__Tusky-4152",
+  "base_sha": "a7e0fa26b7ba60ce996cf6e19c9b496750b1b1d4",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 694,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/lint.xml",
+      "score": 0.01634056054997356,
+      "tfidf_score": 0.16316676401235553,
+      "dependency_support": 0.12405463947794425,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.015873015873015872,
+      "tfidf_score": 0.1298091096704126,
+      "dependency_support": 0.09869302978820219,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values-ta/strings.xml",
+      "score": 0.01488970588235294,
+      "tfidf_score": 0.12120799529669614,
+      "dependency_support": 0.09215365794248022,
+      "graph_degree": 0
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/announcements/AnnouncementsViewModel.kt",
+      "score": 0.014458229942100912,
+      "tfidf_score": 0.12659031657750652,
+      "dependency_support": 0.007527024271185668,
+      "graph_degree": 9
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt",
+      "score": 0.013928571428571429,
+      "tfidf_score": 0.11880186325705419,
+      "dependency_support": 0.010693978015190666,
+      "graph_degree": 12
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Emoji.kt",
+      "score": 0.01365174129353234,
+      "tfidf_score": 0.11104486889370398,
+      "dependency_support": 0.025266673297695063,
+      "graph_degree": 25
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Announcement.kt",
+      "score": 0.013249835201054714,
+      "tfidf_score": 0.11189912325355333,
+      "dependency_support": 0.010693978015190666,
+      "graph_degree": 6
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/compose/ComposeTokenizer.kt",
+      "score": 0.012903225806451613,
+      "tfidf_score": 0.16157472961535696,
+      "dependency_support": 0.0,
+      "graph_degree": 1
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/account/AccountPagerAdapter.kt",
+      "score": 0.0125,
+      "tfidf_score": 0.12661205562069042,
+      "dependency_support": 0.0,
+      "graph_degree": 6
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/service/ServiceClient.kt",
+      "score": 0.012121212121212123,
+      "tfidf_score": 0.1252165956354891,
+      "dependency_support": 0.0,
+      "graph_degree": 2
+    }
+  ]
+}

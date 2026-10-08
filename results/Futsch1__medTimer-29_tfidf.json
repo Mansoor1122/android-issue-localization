@@ -1,0 +1,60 @@
+{
+  "instance_id": "Futsch1__medTimer-29",
+  "base_sha": "43719af52d91f0e48ccdaa5a9a6554e924137649",
+  "method": "tfidf",
+  "indexed_files": 84,
+  "skipped_files": [],
+  "query": "Reminder: Every second day\nI would need the reminder to be set only for every second day. \n\nCould this be included in a future release?:)\n\nThe best, Michael\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.1603547994266748
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/ReminderScheduler.java",
+      "score": 0.15863188080920565
+    },
+    {
+      "rank": 3,
+      "path": "gradle.properties",
+      "score": 0.15029156606862754
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/futsch1/medtimer/medicine/EditMedicine.java",
+      "score": 0.13007620991503888
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/ReminderWork.java",
+      "score": 0.1286399337111842
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+      "score": 0.12021345010986996
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewAdapter.java",
+      "score": 0.1161831133365858
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+      "score": 0.10209202302062981
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/NotificationAction.java",
+      "score": 0.09657598729115349
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/futsch1/medtimer/overview/LatestRemindersViewAdapter.java",
+      "score": 0.08985547428189194
+    }
+  ]
+}

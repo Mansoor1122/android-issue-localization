@@ -1,0 +1,55 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-6573",
+  "method": "dependency_v3",
+  "base_sha": "5ae766b1a1557e2a54627e6b3c83c54c6578995d",
+  "all_targets": [
+    "app/src/main/java/de/danoeh/antennapod/fragment/FeedSettingsFragment.java",
+    "app/src/main/res/xml/feed_settings.xml",
+    "core/src/main/java/de/danoeh/antennapod/core/service/playback/ExoPlayerWrapper.java",
+    "core/src/main/res/values/arrays.xml",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/VolumeAdaptionSetting.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "existing_targets": [
+    "app/src/main/java/de/danoeh/antennapod/fragment/FeedSettingsFragment.java",
+    "app/src/main/res/xml/feed_settings.xml",
+    "core/src/main/java/de/danoeh/antennapod/core/service/playback/ExoPlayerWrapper.java",
+    "core/src/main/res/values/arrays.xml",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/VolumeAdaptionSetting.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/de/danoeh/antennapod/fragment/FeedSettingsFragment.java",
+    "app/src/main/res/xml/feed_settings.xml",
+    "core/src/main/java/de/danoeh/antennapod/core/service/playback/ExoPlayerWrapper.java",
+    "core/src/main/res/values/arrays.xml",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/VolumeAdaptionSetting.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "ui/i18n/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.16666666666666666,
+      "existing_target_recall": 0.16666666666666666,
+      "indexable_target_recall": 0.16666666666666666,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "ui/i18n/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.1,
+      "all_target_recall": 0.16666666666666666,
+      "existing_target_recall": 0.16666666666666666,
+      "indexable_target_recall": 0.16666666666666666,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6529",
+  "method": "dependency_v3",
+  "base_sha": "3a55583460d3294efc7ae2000616d1cb4ec6ad68",
+  "all_targets": [
+    "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignConfig.kt",
+    "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignResponseDTO.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignConfig.kt",
+    "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignResponseDTO.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignConfig.kt",
+    "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignResponseDTO.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignConfig.kt",
+        "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignResponseDTO.kt"
+      ],
+      "precision": 0.4,
+      "all_target_recall": 1.0,
+      "existing_target_recall": 1.0,
+      "indexable_target_recall": 1.0,
+      "complete_existing_target_coverage": true
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignConfig.kt",
+        "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignResponseDTO.kt"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 1.0,
+      "existing_target_recall": 1.0,
+      "indexable_target_recall": 1.0,
+      "complete_existing_target_coverage": true
+    }
+  ]
+}

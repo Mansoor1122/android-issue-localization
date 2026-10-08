@@ -1,0 +1,60 @@
+{
+  "instance_id": "openhab__openhab-android-3123",
+  "base_sha": "5e97de2f6e352db785af8448456b4c5e13aa92a9",
+  "method": "tfidf",
+  "indexed_files": 639,
+  "skipped_files": [],
+  "query": "Preference fragments: \"This method should only be accessed from tests or within private scope\"\nThere are a lot of \"This method should only be accessed from tests or within private scope\" issues in the child classes of `PreferencesActivity.AbstractSettingsFragment`.\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DeviceControlFragment.kt",
+      "score": 0.18493003642730882
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DrawerEntriesMenuFragment.kt",
+      "score": 0.1809356753141146
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileOverviewFragment.kt",
+      "score": 0.16855663422114092
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/WidgetSettingsFragment.kt",
+      "score": 0.15744654131371127
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ConnectionSettingsFragment.kt",
+      "score": 0.15526085441232315
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/java/org/openhab/habdroid/util/TaskerIntent.kt",
+      "score": 0.14360716470555268
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileSettingsFragment.kt",
+      "score": 0.14027264690242974
+    },
+    {
+      "rank": 8,
+      "path": "mobile/src/main/java/org/openhab/habdroid/core/connection/Connection.kt",
+      "score": 0.1385651387161093
+    },
+    {
+      "rank": 9,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/ContentController.kt",
+      "score": 0.1337818765493552
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/java/org/openhab/habdroid/core/connection/CloudConnection.kt",
+      "score": 0.1328144385560943
+    }
+  ]
+}

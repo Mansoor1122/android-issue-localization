@@ -1,0 +1,85 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-7954",
+  "method": "tfidf",
+  "base_sha": "944e0690ba5a070ad02834a3c3d90946bf3ee738",
+  "all_targets": [
+    "app/src/main/java/de/danoeh/antennapod/activity/SelectSubscriptionActivity.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/drawer/DrawerItem.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/drawer/NavDrawerFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/drawer/NavListAdapter.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/feed/RenameFeedDialog.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/feed/preferences/TagSettingsDialog.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionTagAdapter.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionViewHolder.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionsRecyclerAdapter.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/view/ItemOffsetDecoration.java",
+    "app/src/main/res/layout/fragment_subscriptions.xml",
+    "app/src/main/res/layout/item_tag_chip.xml",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBReader.java",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/NavDrawerData.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "existing_targets": [
+    "app/src/main/java/de/danoeh/antennapod/activity/SelectSubscriptionActivity.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/drawer/NavDrawerFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/drawer/NavListAdapter.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/feed/RenameFeedDialog.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/feed/preferences/TagSettingsDialog.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionViewHolder.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionsRecyclerAdapter.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/view/ItemOffsetDecoration.java",
+    "app/src/main/res/layout/fragment_subscriptions.xml",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBReader.java",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/NavDrawerData.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/de/danoeh/antennapod/activity/SelectSubscriptionActivity.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/drawer/NavDrawerFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/drawer/NavListAdapter.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/feed/RenameFeedDialog.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/feed/preferences/TagSettingsDialog.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionViewHolder.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionsRecyclerAdapter.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/view/ItemOffsetDecoration.java",
+    "app/src/main/res/layout/fragment_subscriptions.xml",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBReader.java",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/NavDrawerData.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "unavailable_targets": [
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/drawer/DrawerItem.java",
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/subscriptions/SubscriptionTagAdapter.java",
+    "app/src/main/res/layout/item_tag_chip.xml"
+  ],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBReader.java",
+        "ui/i18n/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.4,
+      "all_target_recall": 0.125,
+      "existing_target_recall": 0.15384615384615385,
+      "indexable_target_recall": 0.15384615384615385,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBReader.java",
+        "ui/i18n/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.125,
+      "existing_target_recall": 0.15384615384615385,
+      "indexable_target_recall": 0.15384615384615385,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

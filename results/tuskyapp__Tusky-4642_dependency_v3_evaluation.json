@@ -1,0 +1,36 @@
+{
+  "instance_id": "tuskyapp__Tusky-4642",
+  "method": "dependency_v3",
+  "base_sha": "49fbe1f408102e70e6f52bd969974f971b37b547",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/util/SpanUtils.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/util/SpanUtils.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/util/SpanUtils.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

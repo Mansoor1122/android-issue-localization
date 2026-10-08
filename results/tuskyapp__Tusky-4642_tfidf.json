@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-4642",
+  "base_sha": "49fbe1f408102e70e6f52bd969974f971b37b547",
+  "method": "tfidf",
+  "indexed_files": 705,
+  "skipped_files": [],
+  "query": "Tusky URL detection breaks if capital letters in scheme://\n### Steps to reproduce the problem\r\n\r\n1. Open Compose in Mastodon Web on PC, and Tusky side by side.\r\n2. In both, type: `Https://example.com` or `HTTPS://EXAMPLE.COM`\r\n\r\n**Expected behavior:** Mastodon Web and Tusky should have identical behavior.\r\n\r\n**Observed behavior:** Mastodon Web recognizes this as a url the moment you type the letter \"O\". Tusky cannot recognize anything as a URL, whether typed or pasted, if \"https\" contains an uppercase letter. After typing the url Tusky predicts 481 letters and Mastodon Web predicts 477 characters.\r\n\r\nRFC 1738 §2.1 states clients such as Tusky should accept URL scheme as case insensitive.\r\n\r\n#### Notes\r\n\r\nThis causes problems on my phone because GBoard wants to capitalize the leading H in a URL.\r\n\r\n### Debug information\r\n\r\nmastodon.social, Android 13, Tusky 26.1 from Play Store\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/com/keylesspalace/tusky/interfaces/LinkListener.kt",
+      "score": 0.1359960726913883
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt",
+      "score": 0.13119566815056155
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/login/LoginActivity.kt",
+      "score": 0.13023637593615364
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/NoUnderlineURLSpan.kt",
+      "score": 0.12909761869708586
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/network/ApiFactory.kt",
+      "score": 0.12622246004127236
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/view/TuskySwipeRefreshLayout.kt",
+      "score": 0.1213942124731706
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/login/LoginWebViewActivity.kt",
+      "score": 0.11764723918443548
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/TrendingTagsResult.kt",
+      "score": 0.11290721526991562
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/account/list/ListsForAccountViewModel.kt",
+      "score": 0.11189016453594397
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/drafts/DraftsActivity.kt",
+      "score": 0.11119057345241684
+    }
+  ]
+}

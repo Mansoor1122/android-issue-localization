@@ -1,0 +1,36 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6167",
+  "method": "dependency_v3",
+  "base_sha": "36f844a709dc40944644723917c0b1622380edf6",
+  "all_targets": [
+    "app/src/main/java/fr/free/nrw/commons/category/CategoriesModel.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/fr/free/nrw/commons/category/CategoriesModel.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/fr/free/nrw/commons/category/CategoriesModel.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "instance_id": "tuskyapp__Tusky-4638",
+  "method": "dependency",
+  "base_sha": "da54cda88ecc855998eed574862bf07454e0c882",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationTypeMappers.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsRemoteMediator.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsViewModel.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationTypeMappers.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsRemoteMediator.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsViewModel.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationTypeMappers.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsRemoteMediator.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsViewModel.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

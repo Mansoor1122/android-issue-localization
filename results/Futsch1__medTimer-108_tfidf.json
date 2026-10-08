@@ -1,0 +1,60 @@
+{
+  "instance_id": "Futsch1__medTimer-108",
+  "base_sha": "49ec3d1b8b20e9fbf8baa672cdfea88c3f582689",
+  "method": "tfidf",
+  "indexed_files": 130,
+  "skipped_files": [],
+  "query": "Restore events\nOK, it may well be that I'm getting a bit old and don't realise things so quickly. ;) Saving and restoring the medication schedule now works. Exporting the events is quite simple. But how and where can I restore previously saved events in the app, i.e. restore the events?\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "gradle.properties",
+      "score": 0.16659930740522005
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/scheduling/ReminderForScheduling.java",
+      "score": 0.1611633780535567
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.1401802253659674
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+      "score": 0.13211051113453232
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/futsch1/medtimer/overview/OverviewFragment.java",
+      "score": 0.12335954778481148
+    },
+    {
+      "rank": 6,
+      "path": "app/build.gradle.kts",
+      "score": 0.11782601682648002
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/futsch1/medtimer/OptionsMenu.java",
+      "score": 0.11694994519265285
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/futsch1/medtimer/statistics/StatisticsProvider.java",
+      "score": 0.11263521031313305
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewAdapter.java",
+      "score": 0.11020683696705107
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/res/xml/root_preferences.xml",
+      "score": 0.10436220904333805
+    }
+  ]
+}

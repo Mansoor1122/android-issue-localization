@@ -1,0 +1,60 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6324",
+  "base_sha": "5d7f42d127600f205773214bb877472f259ff552",
+  "method": "tfidf",
+  "indexed_files": 1187,
+  "skipped_files": [],
+  "query": "[Bug]: Circular Progress bar keeps on moving even though nomination for deletion is successful\n### Summary\n\nWhen the user clicks on 'Nominate for Deletion,' the circular progress bar keeps moving even though the nomination for deletion is successful. This doesn't provide any visible status and makes the user think that the process is ongoing. Only a notification is received, which can be piled up among other notifications.\n\n### Steps to reproduce\n\n1. Open the App\r\n2. Click on any contribution\r\n3. Click on Nominate for Deletion\n\n### Expected behaviour\n\nOnSuccess : Circular Progress bar should stop and Text should change to nominated for deletion\n\n### Actual behaviour\n\nOnSuccess : Circular Progress bar keeps on moving\n\n### Device name\n\nSamsung S21\n\n### Android version\n\nAndroid 14\n\n### Commons app version\n\n4.2.1-debug-HEAD~d4b473656\n\n### Device logs\n\n_No response_\n\n### Screen-shots\n\n\r\nhttps://github.com/commons-app/apps-android-commons/assets/114223204/f215652b-00a3-4256-8c34-c90eeadf31c0\r\n\r\n\n\n### Would you like to work on the issue?\n\nYes\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.17804402974473182
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadContract.kt",
+      "score": 0.1761918784291029
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.15773895813676655
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsFragment.kt",
+      "score": 0.14331109164932077
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.kt",
+      "score": 0.13877321788352373
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/MainActivity.kt",
+      "score": 0.12717802767572645
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/MediaDetailPagerFragment.java",
+      "score": 0.12554988476152468
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/explore/SearchActivity.java",
+      "score": 0.1238369435971724
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/worker/UploadWorker.kt",
+      "score": 0.12272872422985986
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/bookmarks/pictures/BookmarkPicturesFragment.java",
+      "score": 0.12164514897298064
+    }
+  ]
+}

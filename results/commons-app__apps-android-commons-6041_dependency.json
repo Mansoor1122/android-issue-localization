@@ -1,0 +1,81 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6041",
+  "base_sha": "5500b039762b63d18b794bb0bc68d2a84a495166",
+  "method": "dependency",
+  "restart_weight": 0.5,
+  "indexed_files": 1179,
+  "skipped_files": [],
+  "graph_edges": 3411,
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/MediaDetailFragment.kt",
+      "score": 0.02882653816710564,
+      "tfidf_score": 0.07703117129253816,
+      "graph_degree": 335
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/profile/achievements/Achievements.kt",
+      "score": 0.02804755011060882,
+      "tfidf_score": 0.07639972023015168,
+      "graph_degree": 80
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/review/ReviewHelper.kt",
+      "score": 0.022709344304539174,
+      "tfidf_score": 0.05387176800119818,
+      "graph_degree": 288
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/feedback/model/Feedback.kt",
+      "score": 0.009349924643826701,
+      "tfidf_score": 0.061662086147614835,
+      "graph_degree": 36
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/Media.kt",
+      "score": 0.0071572796387604975,
+      "tfidf_score": 0.056185955956780644,
+      "graph_degree": 83
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java",
+      "score": 0.005497055266399848,
+      "tfidf_score": 0.08356794350991568,
+      "graph_degree": 75
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/MediaDetailPagerFragment.java",
+      "score": 0.00548904560583131,
+      "tfidf_score": 0.09666733326113475,
+      "graph_degree": 61
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/License.java",
+      "score": 0.004766686559803939,
+      "tfidf_score": 0.04084216468485445,
+      "graph_degree": 20
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/Place.java",
+      "score": 0.004374638277816258,
+      "tfidf_score": 0.07487934927397595,
+      "graph_degree": 52
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/CommonsApplication.kt",
+      "score": 0.004339948062110188,
+      "tfidf_score": 0.08976540626501399,
+      "graph_degree": 48
+    }
+  ]
+}

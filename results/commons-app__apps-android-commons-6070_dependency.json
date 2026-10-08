@@ -1,0 +1,81 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6070",
+  "base_sha": "c963cd9ea49b1fa9dd2baf20e11d1b46e75abc62",
+  "method": "dependency",
+  "restart_weight": 0.5,
+  "indexed_files": 1179,
+  "skipped_files": [],
+  "graph_edges": 3415,
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/MediaDetailFragment.kt",
+      "score": 0.028878224263346707,
+      "tfidf_score": 0.13916307256086305,
+      "graph_degree": 335
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/review/ReviewHelper.kt",
+      "score": 0.024291037500112817,
+      "tfidf_score": 0.12759852152331838,
+      "graph_degree": 288
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/profile/achievements/Achievements.kt",
+      "score": 0.021378593576529825,
+      "tfidf_score": 0.07394503118603153,
+      "graph_degree": 80
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/Media.kt",
+      "score": 0.007657964813744277,
+      "tfidf_score": 0.15357088140489367,
+      "graph_degree": 83
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/feedback/model/Feedback.kt",
+      "score": 0.006718227847943256,
+      "tfidf_score": 0.062046031531669446,
+      "graph_degree": 36
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java",
+      "score": 0.006275042780698433,
+      "tfidf_score": 0.19601585700658405,
+      "graph_degree": 74
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/MediaDetailPagerFragment.java",
+      "score": 0.005584994362380234,
+      "tfidf_score": 0.1544241555399421,
+      "graph_degree": 61
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/Place.java",
+      "score": 0.005282897496306312,
+      "tfidf_score": 0.1620173881599705,
+      "graph_degree": 52
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/mwapi/OkHttpJsonApiClient.kt",
+      "score": 0.00468438365434173,
+      "tfidf_score": 0.16286590420432753,
+      "graph_degree": 38
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/location/LatLng.kt",
+      "score": 0.004596577188566331,
+      "tfidf_score": 0.14357852244000105,
+      "graph_degree": 47
+    }
+  ]
+}

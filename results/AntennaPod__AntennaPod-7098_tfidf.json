@@ -1,0 +1,60 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-7098",
+  "base_sha": "cb1a03cd8d55efca8a815d9c55b6a9a6448c0267",
+  "method": "tfidf",
+  "indexed_files": 891,
+  "skipped_files": [],
+  "query": "Add/play single episode without subscribing to podcast\n# Checklist\r\n<!-- Place an x in the boxes to tick them: [x] -->\r\n\r\n- [x] I have used the search function to see if someone else has already submitted the same feature request.\r\n- [x] I will only create one feature request per issue.\r\n- [x] I will describe the problem with as much detail as possible.\r\n\r\n# System info\r\n\r\n**App version**: 2.0.3\r\n\r\n**App source**:  F-Droid\r\n\r\n# Feature description\r\n\r\n**Problem you may be having, or feature you want**:\r\n\r\nAfter recommending AntennaPod to a friend, the friend is really happy with the application and use it to listen to regular podcast shows, some of them in auto-download, some of them cherry picking the episodes according to the description and title. \r\n\r\nI recommend a particular episode of a podcast I enjoy, which she doesn't follow, she says \"great, I'll listen to it, but not right now, I'll add it to AntennaPod\", but then she had the following reaction \"Hey, why can't I add a single episode without having to subscribe to the whole podcast ?\". And I thought this would be a nice feature in AntennaPod : not having to subscribe to a podcast which you won't follow or have to unsubscribe to later, and benefit from the \"Queue\" feature that enables one to \"Listen later\" to a single episode. \r\n\r\n\r\n**Suggested solution**:\r\n\r\nIn the podcast \"Subscribe\" menu, when the user clicks on an episode there is a \"Preview\" link which is useful to listen to it straight away, there could be an other link / button with \"Download to listen later (without subscribing)\".  \r\n\r\n**Screenshots / Drawings / Technical details**:\r\n<!-- If your request is about (or includes) changing or extending the UI, describe what the UI would look like and how the user would interact with it. -->\r\n\r\n![Screenshot_20201123-094806](https://user-images.githubusercontent.com/108437/99943362-773d6a00-2d71-11eb-8b53-e739c724e6e6.png)\r\n\r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "ui/i18n/src/main/res/values/strings.xml",
+      "score": 0.2473249490015997
+    },
+    {
+      "rank": 2,
+      "path": "ui/echo/src/main/res/values/echo-strings.xml",
+      "score": 0.20655857124165142
+    },
+    {
+      "rank": 3,
+      "path": "playback/base/src/main/java/de/danoeh/antennapod/playback/base/PlaybackServiceMediaPlayer.java",
+      "score": 0.1989273485992745
+    },
+    {
+      "rank": 4,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/FeedDatabaseWriter.java",
+      "score": 0.1935070352461502
+    },
+    {
+      "rank": 5,
+      "path": "net/download/service-interface/src/main/java/de/danoeh/antennapod/net/download/serviceinterface/AutoDownloadManager.java",
+      "score": 0.1802413100250849
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/de/danoeh/antennapod/ui/episodeslist/FeedItemMenuHandler.java",
+      "score": 0.17709021448961396
+    },
+    {
+      "rank": 7,
+      "path": "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java",
+      "score": 0.1759357018437945
+    },
+    {
+      "rank": 8,
+      "path": "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/PowerConnectionReceiver.java",
+      "score": 0.16671548870177555
+    },
+    {
+      "rank": 9,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBReader.java",
+      "score": 0.16595885471439872
+    },
+    {
+      "rank": 10,
+      "path": "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/episode/autodownload/AutomaticDownloadAlgorithm.java",
+      "score": 0.16273241428113217
+    }
+  ]
+}

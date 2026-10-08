@@ -1,0 +1,18 @@
+
+# Downloaded source repositories
+/repositories/
+/case_study_code/
+
+# Python environments and caches
+/.venv/
+/venv/
+__pycache__/
+*.pyc
+
+# Local files and secrets
+.DS_Store
+.env
+.env.*
+
+# Full benchmark download
+/data/benchmark.jsonl

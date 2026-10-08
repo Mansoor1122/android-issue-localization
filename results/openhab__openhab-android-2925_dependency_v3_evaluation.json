@@ -1,0 +1,61 @@
+{
+  "instance_id": "openhab__openhab-android-2925",
+  "method": "dependency_v3",
+  "base_sha": "1baee50328207731213ada3297407d9cfefd04f3",
+  "all_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/background/ItemsControlsProviderService.kt",
+    "mobile/src/main/java/org/openhab/habdroid/model/Item.kt",
+    "mobile/src/main/java/org/openhab/habdroid/util/PrefExtensions.kt",
+    "mobile/src/main/java/org/openhab/habdroid/util/PrefKeys.kt",
+    "mobile/src/main/res/values/arrays.xml",
+    "mobile/src/main/res/values/strings.xml",
+    "mobile/src/main/res/xml/preferences.xml"
+  ],
+  "existing_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/background/ItemsControlsProviderService.kt",
+    "mobile/src/main/java/org/openhab/habdroid/model/Item.kt",
+    "mobile/src/main/java/org/openhab/habdroid/util/PrefExtensions.kt",
+    "mobile/src/main/java/org/openhab/habdroid/util/PrefKeys.kt",
+    "mobile/src/main/res/values/arrays.xml",
+    "mobile/src/main/res/values/strings.xml",
+    "mobile/src/main/res/xml/preferences.xml"
+  ],
+  "indexable_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/background/ItemsControlsProviderService.kt",
+    "mobile/src/main/java/org/openhab/habdroid/model/Item.kt",
+    "mobile/src/main/java/org/openhab/habdroid/util/PrefExtensions.kt",
+    "mobile/src/main/java/org/openhab/habdroid/util/PrefKeys.kt",
+    "mobile/src/main/res/values/arrays.xml",
+    "mobile/src/main/res/values/strings.xml",
+    "mobile/src/main/res/xml/preferences.xml"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [
+    "docs/USAGE.md"
+  ],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "mobile/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.14285714285714285,
+      "existing_target_recall": 0.14285714285714285,
+      "indexable_target_recall": 0.14285714285714285,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "mobile/src/main/java/org/openhab/habdroid/background/ItemsControlsProviderService.kt",
+        "mobile/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.2857142857142857,
+      "existing_target_recall": 0.2857142857142857,
+      "indexable_target_recall": 0.2857142857142857,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

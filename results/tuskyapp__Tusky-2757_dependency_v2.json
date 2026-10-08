@@ -1,0 +1,96 @@
+{
+  "instance_id": "tuskyapp__Tusky-2757",
+  "base_sha": "8e9b356074e961c483bb5f64833efcd03e2a3ab7",
+  "method": "dependency_v2",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 586,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Notification.kt",
+      "score": 0.0151981351981352,
+      "tfidf_score": 0.1576199782437894,
+      "dependency_support": 0.03148735786081767,
+      "graph_degree": 17
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/FocalPointUtil.kt",
+      "score": 0.014776828110161445,
+      "tfidf_score": 0.1655317235396398,
+      "dependency_support": 0.014084370783591846,
+      "graph_degree": 11
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/view/MediaPreviewImageView.kt",
+      "score": 0.014138100705264885,
+      "tfidf_score": 0.15599944587731332,
+      "dependency_support": 0.009036864302222001,
+      "graph_degree": 11
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/interfaces/AccountActionListener.java",
+      "score": 0.013813813813813814,
+      "tfidf_score": 0.14763794356081134,
+      "dependency_support": 0.017007438335729794,
+      "graph_degree": 12
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/NotificationTypeConverter.kt",
+      "score": 0.013517279821627648,
+      "tfidf_score": 0.14953975863492863,
+      "dependency_support": 0.005567901592853828,
+      "graph_degree": 4
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.013114754098360657,
+      "tfidf_score": 0.20300035906635477,
+      "dependency_support": 0.0,
+      "graph_degree": 8
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/adapter/FollowRequestsAdapter.kt",
+      "score": 0.012903225806451613,
+      "tfidf_score": 0.19824750756145385,
+      "dependency_support": 0.0,
+      "graph_degree": 7
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/AccountEntity.kt",
+      "score": 0.01288050885960927,
+      "tfidf_score": 0.14771542194171508,
+      "dependency_support": 0.0019509764880650232,
+      "graph_degree": 25
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/ViewDataUtils.kt",
+      "score": 0.012715572715572717,
+      "tfidf_score": 0.14197295270917565,
+      "dependency_support": 0.005567901592853828,
+      "graph_degree": 6
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/TimelineStatusEntity.kt",
+      "score": 0.012698412698412698,
+      "tfidf_score": 0.17017420765447977,
+      "dependency_support": 0.0,
+      "graph_degree": 11
+    }
+  ]
+}

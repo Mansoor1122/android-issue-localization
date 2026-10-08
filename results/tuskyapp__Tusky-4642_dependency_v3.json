@@ -1,0 +1,96 @@
+{
+  "instance_id": "tuskyapp__Tusky-4642",
+  "base_sha": "49fbe1f408102e70e6f52bd969974f971b37b547",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 705,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/login/LoginActivity.kt",
+      "score": 0.01559696342305038,
+      "tfidf_score": 0.13023637593615364,
+      "dependency_support": 0.031940431541512534,
+      "graph_degree": 7
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/view/TuskySwipeRefreshLayout.kt",
+      "score": 0.015347018572825026,
+      "tfidf_score": 0.1213942124731706,
+      "dependency_support": 0.098873128513196,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/login/LoginWebViewActivity.kt",
+      "score": 0.014537701104865285,
+      "tfidf_score": 0.11764723918443548,
+      "dependency_support": 0.0151535559499995,
+      "graph_degree": 3
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/LinkHelper.kt",
+      "score": 0.013661606812291744,
+      "tfidf_score": 0.1101743099835424,
+      "dependency_support": 0.027545129272072207,
+      "graph_degree": 7
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/interfaces/LinkListener.kt",
+      "score": 0.013114754098360657,
+      "tfidf_score": 0.1359960726913883,
+      "dependency_support": 0.0,
+      "graph_degree": 17
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/entity/AccountEntity.kt",
+      "score": 0.01307692307692308,
+      "tfidf_score": 0.1028616826141071,
+      "dependency_support": 0.03426854613757,
+      "graph_degree": 26
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt",
+      "score": 0.012903225806451613,
+      "tfidf_score": 0.13119566815056155,
+      "dependency_support": 0.0,
+      "graph_degree": 15
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/systemnotifications/PushNotificationHelper.kt",
+      "score": 0.01278805582603051,
+      "tfidf_score": 0.10540165890426717,
+      "dependency_support": 0.0151535559499995,
+      "graph_degree": 7
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/NoUnderlineURLSpan.kt",
+      "score": 0.0125,
+      "tfidf_score": 0.12909761869708586,
+      "dependency_support": 0.0,
+      "graph_degree": 5
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/network/ApiFactory.kt",
+      "score": 0.01230769230769231,
+      "tfidf_score": 0.12622246004127236,
+      "dependency_support": 0.0,
+      "graph_degree": 3
+    }
+  ]
+}

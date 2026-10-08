@@ -1,0 +1,96 @@
+{
+  "instance_id": "openhab__openhab-android-3123",
+  "base_sha": "5e97de2f6e352db785af8448456b4c5e13aa92a9",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 639,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileOverviewFragment.kt",
+      "score": 0.014896214896214897,
+      "tfidf_score": 0.16855663422114092,
+      "dependency_support": 0.01014590796441642,
+      "graph_degree": 5
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileSettingsFragment.kt",
+      "score": 0.014797441364605543,
+      "tfidf_score": 0.14027264690242974,
+      "dependency_support": 0.021945035212889943,
+      "graph_degree": 9
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/java/org/openhab/habdroid/core/connection/Connection.kt",
+      "score": 0.01411764705882353,
+      "tfidf_score": 0.1385651387161093,
+      "dependency_support": 0.010315123751670225,
+      "graph_degree": 23
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/PreferencesActivity.kt",
+      "score": 0.014089499335400976,
+      "tfidf_score": 0.11847092212452796,
+      "dependency_support": 0.11594816410864234,
+      "graph_degree": 27
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/MainSettingsFragment.kt",
+      "score": 0.013752122241086587,
+      "tfidf_score": 0.11672464649142104,
+      "dependency_support": 0.08280252673963569,
+      "graph_degree": 23
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ServerEditorFragment.kt",
+      "score": 0.01355630670699164,
+      "tfidf_score": 0.12849895629536645,
+      "dependency_support": 0.016845005503173423,
+      "graph_degree": 13
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/ContentController.kt",
+      "score": 0.013396004700352527,
+      "tfidf_score": 0.1337818765493552,
+      "dependency_support": 0.003921810280633144,
+      "graph_degree": 28
+    },
+    {
+      "rank": 8,
+      "path": "mobile/src/main/java/org/openhab/habdroid/core/connection/CloudConnection.kt",
+      "score": 0.013389355742296919,
+      "tfidf_score": 0.1328144385560943,
+      "dependency_support": 0.003921810280633144,
+      "graph_degree": 12
+    },
+    {
+      "rank": 9,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/PageConnectionHolderFragment.kt",
+      "score": 0.013287807654004839,
+      "tfidf_score": 0.13218738944936334,
+      "dependency_support": 0.007032091714365165,
+      "graph_degree": 7
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DeviceControlFragment.kt",
+      "score": 0.013114754098360657,
+      "tfidf_score": 0.18493003642730882,
+      "dependency_support": 0.0,
+      "graph_degree": 4
+    }
+  ]
+}

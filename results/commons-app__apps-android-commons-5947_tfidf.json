@@ -1,0 +1,60 @@
+{
+  "instance_id": "commons-app__apps-android-commons-5947",
+  "base_sha": "fe347c21fdede145e6a945750aa43a6de7ec24eb",
+  "method": "tfidf",
+  "indexed_files": 1178,
+  "skipped_files": [],
+  "query": "`Unresolved reference: mockk` when running unit tests\n```\r\n> Task :app:compileBetaDebugUnitTestKotlin FAILED\r\ne: app/src/test/kotlin/fr/free/nrw/commons/actions/ThanksClientTest.kt:7:11 Unresolved reference: mockk\r\ne: app/src/test/kotlin/fr/free/nrw/commons/actions/ThanksClientTest.kt:8:11 Unresolved reference: mockk\r\ne: app/src/test/kotlin/fr/free/nrw/commons/actions/ThanksClientTest.kt:42:9 Unresolved reference: mockkObject\r\ne: app/src/test/kotlin/fr/free/nrw/commons/actions/ThanksClientTest.kt:43:9 Unresolved reference: every\r\ne: app/src/test/kotlin/fr/free/nrw/commons/description/DescriptionEditActivityUnitTest.kt:23:11 Unresolved reference: mockk\r\ne: app/src/test/kotlin/fr/free/nrw/commons/description/DescriptionEditActivityUnitTest.kt:24:11 Unresolved reference: mockk\r\ne: app/src/test/kotlin/fr/free/nrw/commons/description/DescriptionEditActivityUnitTest.kt:91:9 Unresolved reference: mockkObject\r\ne: app/src/test/kotlin/fr/free/nrw/commons/description/DescriptionEditActivityUnitTest.kt:92:9 Unresolved reference: every\r\ne: app/src/test/kotlin/fr/free/nrw/commons/settings/SettingsFragmentUnitTests.kt:22:54 Cannot import 'createLocale', functions and properties can be imported only from packages or objects\r\ne: app/src/test/kotlin/fr/free/nrw/commons/settings/SettingsFragmentUnitTests.kt:286:30 Unresolved reference: createLocale\r\ne: app/src/test/kotlin/fr/free/nrw/commons/settings/SettingsFragmentUnitTests.kt:295:30 Unresolved reference: createLocale\r\ne: app/src/test/kotlin/fr/free/nrw/commons/settings/SettingsFragmentUnitTests.kt:304:30 Unresolved reference: createLocale\r\n```\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/Language.kt",
+      "score": 0.21555448271036462
+    },
+    {
+      "rank": 2,
+      "path": "jacoco.gradle",
+      "score": 0.21293736048764136
+    },
+    {
+      "rank": 3,
+      "path": "app/build.gradle",
+      "score": 0.17336439947747379
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadClient.java",
+      "score": 0.16839500099220317
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/PageEditHelper.java",
+      "score": 0.16424285113667408
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values/attrs.xml",
+      "score": 0.1553838922179838
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/delete/DeleteHelper.java",
+      "score": 0.15515745709361364
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/description/EditDescriptionConstants.kt",
+      "score": 0.1525966770812164
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/di/ExploreMapFragmentModule.kt",
+      "score": 0.14345988729779482
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/di/NearbyParentFragmentModule.kt",
+      "score": 0.1422771827219344
+    }
+  ]
+}

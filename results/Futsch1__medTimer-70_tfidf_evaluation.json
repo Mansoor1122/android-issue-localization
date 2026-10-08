@@ -1,0 +1,75 @@
+{
+  "instance_id": "Futsch1__medTimer-70",
+  "method": "tfidf",
+  "base_sha": "53f561b878fa7dd4c66f484f8c9e253b8fc7e790",
+  "all_targets": [
+    "app/src/main/java/com/futsch1/medtimer/PreferencesActivity.java",
+    "app/src/main/java/com/futsch1/medtimer/WeekendModePreferencesFragment.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/TimeHelper.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/EditMedicine.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+    "app/src/main/java/com/futsch1/medtimer/reminders/WeekendMode.java",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values/arrays.xml",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/xml/root_preferences.xml",
+    "app/src/main/res/xml/weekend_mode_preferences.xml"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/futsch1/medtimer/PreferencesActivity.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/TimeHelper.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/EditMedicine.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values/arrays.xml",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/xml/root_preferences.xml"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/futsch1/medtimer/PreferencesActivity.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/TimeHelper.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/EditMedicine.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values/arrays.xml",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/xml/root_preferences.xml"
+  ],
+  "unavailable_targets": [
+    "app/src/main/java/com/futsch1/medtimer/WeekendModePreferencesFragment.java",
+    "app/src/main/java/com/futsch1/medtimer/reminders/WeekendMode.java",
+    "app/src/main/res/xml/weekend_mode_preferences.xml"
+  ],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.07692307692307693,
+      "existing_target_recall": 0.1,
+      "indexable_target_recall": 0.1,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+        "app/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.15384615384615385,
+      "existing_target_recall": 0.2,
+      "indexable_target_recall": 0.2,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

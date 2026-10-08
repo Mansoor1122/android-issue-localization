@@ -1,0 +1,36 @@
+{
+  "instance_id": "openhab__openhab-android-3770",
+  "method": "tfidf",
+  "base_sha": "f23ebe4491b61674b2f48e9739c9f1ee0042ab1c",
+  "all_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/model/Widget.kt"
+  ],
+  "existing_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/model/Widget.kt"
+  ],
+  "indexable_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/model/Widget.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

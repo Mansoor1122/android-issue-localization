@@ -1,0 +1,96 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-6659",
+  "base_sha": "574ec1434c885429e0d9b4061dff765eb7284701",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 851,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "ui/i18n/src/main/res/values/strings.xml",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.1983198420626044,
+      "dependency_support": 0.11627396866664091,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/DBTasks.java",
+      "score": 0.015642951833848874,
+      "tfidf_score": 0.19229754773711408,
+      "dependency_support": 0.012007944505816574,
+      "graph_degree": 34
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/de/danoeh/antennapod/view/NestedScrollableHost.java",
+      "score": 0.015295815295815297,
+      "tfidf_score": 0.1663726818228235,
+      "dependency_support": 0.09754350241538286,
+      "graph_degree": 0
+    },
+    {
+      "rank": 4,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/DBReader.java",
+      "score": 0.014369747899159664,
+      "tfidf_score": 0.15649568504805805,
+      "dependency_support": 0.014162492653051464,
+      "graph_degree": 79
+    },
+    {
+      "rank": 5,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/AutomaticDownloadAlgorithm.java",
+      "score": 0.014159544159544162,
+      "tfidf_score": 0.16650568384050526,
+      "dependency_support": 0.004477400470154967,
+      "graph_degree": 12
+    },
+    {
+      "rank": 6,
+      "path": "model/src/main/java/de/danoeh/antennapod/model/feed/Feed.java",
+      "score": 0.01409083614187129,
+      "tfidf_score": 0.16069921227938,
+      "dependency_support": 0.005842835773461518,
+      "graph_degree": 70
+    },
+    {
+      "rank": 7,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/DBWriter.java",
+      "score": 0.013826561552456033,
+      "tfidf_score": 0.16069556461741683,
+      "dependency_support": 0.005823360106366407,
+      "graph_degree": 69
+    },
+    {
+      "rank": 8,
+      "path": "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java",
+      "score": 0.013466533466533469,
+      "tfidf_score": 0.14181313099477272,
+      "dependency_support": 0.015323918814511502,
+      "graph_degree": 97
+    },
+    {
+      "rank": 9,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/PodDBAdapter.java",
+      "score": 0.013033033033033034,
+      "tfidf_score": 0.14642258431905578,
+      "dependency_support": 0.007188795409672957,
+      "graph_degree": 26
+    },
+    {
+      "rank": 10,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/export/CommonSymbols.java",
+      "score": 0.012698412698412698,
+      "tfidf_score": 0.17935982155084765,
+      "dependency_support": 0.0,
+      "graph_degree": 1
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "instance_id": "tuskyapp__Tusky-4821",
+  "base_sha": "55467affc811a430f983735dcc79ad71f628cd70",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 736,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.016129032258064516,
+      "tfidf_score": 0.1876285972436939,
+      "dependency_support": 0.11525381321969799,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/interfaces/AccountActionListener.kt",
+      "score": 0.01397030833650552,
+      "tfidf_score": 0.14793279376358534,
+      "dependency_support": 0.030709557100403198,
+      "graph_degree": 13
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/accountlist/adapter/BlocksAdapter.kt",
+      "score": 0.013114754098360657,
+      "tfidf_score": 0.19997572174866635,
+      "dependency_support": 0.0,
+      "graph_degree": 4
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/entity/AccountEntity.kt",
+      "score": 0.012840579710144929,
+      "tfidf_score": 0.14082454187682047,
+      "dependency_support": 0.00921928708173514,
+      "graph_degree": 27
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/NotificationRequest.kt",
+      "score": 0.012698412698412698,
+      "tfidf_score": 0.16455897605141864,
+      "dependency_support": 0.0,
+      "graph_degree": 7
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/viewdata/NotificationViewData.kt",
+      "score": 0.012613240418118468,
+      "tfidf_score": 0.13310619706651688,
+      "dependency_support": 0.03218162339671247,
+      "graph_degree": 18
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/requests/NotificationRequestsPagingSource.kt",
+      "score": 0.012507534659433394,
+      "tfidf_score": 0.13844934513324791,
+      "dependency_support": 0.014440419430475549,
+      "graph_degree": 2
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/layout/item_blocked_user.xml",
+      "score": 0.0125,
+      "tfidf_score": 0.15916221493585195,
+      "dependency_support": 0.0,
+      "graph_degree": 3
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/account/AccountPagerAdapter.kt",
+      "score": 0.01230769230769231,
+      "tfidf_score": 0.15800365643976186,
+      "dependency_support": 0.0,
+      "graph_degree": 6
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/UnknownNotificationViewHolder.kt",
+      "score": 0.012121212121212123,
+      "tfidf_score": 0.15717118643458508,
+      "dependency_support": 0.0,
+      "graph_degree": 3
+    }
+  ]
+}

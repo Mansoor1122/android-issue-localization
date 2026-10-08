@@ -1,0 +1,60 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-6573",
+  "base_sha": "5ae766b1a1557e2a54627e6b3c83c54c6578995d",
+  "method": "tfidf",
+  "indexed_files": 850,
+  "skipped_files": [],
+  "query": "Option to allow boosting audio volume over 100%\n# Checklist\r\n\r\n- [x ] I have used the search function to see if someone else has already submitted the same feature request.\r\n- [ x] I will only create one feature request per issue.\r\n- [x ] I will describe the problem with as much detail as possible.\r\n\r\n# System info\r\n\r\n**App version**: 2.2.1 (latest)\r\n\r\n**App source**: Google Play\r\n\r\n# Feature description\r\n\r\n**Problem you may be having, or feature you want**:\r\nSome of the episodes I have are using a lower audio volume, and even if I'm at 100% of the volume I cannot hear correctly.\r\n\r\n**Suggested solution**:\r\nMaybe we could implement an option that allow to boost audio volume over 100% ?\r\nFor safety reasons, it could be an option that is disabled by default and is available to be enabled in the advanced settings tab.\r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "playback/base/src/main/java/de/danoeh/antennapod/playback/base/PlaybackServiceMediaPlayer.java",
+      "score": 0.21083360756221325
+    },
+    {
+      "rank": 2,
+      "path": "ui/i18n/src/main/res/values/strings.xml",
+      "score": 0.19993977885519565
+    },
+    {
+      "rank": 3,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/service/playback/LocalPSMP.java",
+      "score": 0.1714561354291344
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/de/danoeh/antennapod/view/AspectRatioVideoView.java",
+      "score": 0.16713169377032966
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/de/danoeh/antennapod/view/NestedScrollableHost.java",
+      "score": 0.16707021840192168
+    },
+    {
+      "rank": 6,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/DBTasks.java",
+      "score": 0.16322947891140394
+    },
+    {
+      "rank": 7,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/export/CommonSymbols.java",
+      "score": 0.1621405684817174
+    },
+    {
+      "rank": 8,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/EpisodeCleanupAlgorithm.java",
+      "score": 0.15134609062647317
+    },
+    {
+      "rank": 9,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/DBWriter.java",
+      "score": 0.1510559832925735
+    },
+    {
+      "rank": 10,
+      "path": "model/src/main/java/de/danoeh/antennapod/model/feed/Feed.java",
+      "score": 0.14926053026515917
+    }
+  ]
+}

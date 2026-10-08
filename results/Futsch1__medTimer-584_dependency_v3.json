@@ -1,0 +1,96 @@
+{
+  "instance_id": "Futsch1__medTimer-584",
+  "base_sha": "c0f542345ea0d1925d6b1e28ce807d4ecc6de035",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 259,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.3338342155713551,
+      "dependency_support": 0.1621946077746709,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "gradle.properties",
+      "score": 0.015924219150025603,
+      "tfidf_score": 0.2424877466112665,
+      "dependency_support": 0.11781358266247444,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values-zh-rCN/strings.xml",
+      "score": 0.014768806073153899,
+      "tfidf_score": 0.1605734046517503,
+      "dependency_support": 0.07801519188786499,
+      "graph_degree": 0
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/Notifications.java",
+      "score": 0.014650537634408604,
+      "tfidf_score": 0.19211417133776135,
+      "dependency_support": 0.005709032648213403,
+      "graph_degree": 18
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/ReminderWork.java",
+      "score": 0.014571877454831107,
+      "tfidf_score": 0.17625774943473868,
+      "dependency_support": 0.020449252091997557,
+      "graph_degree": 15
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+      "score": 0.014435351882160394,
+      "tfidf_score": 0.1915084319414124,
+      "dependency_support": 0.005709032648213403,
+      "graph_degree": 13
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/NotificationAction.java",
+      "score": 0.014295125164690383,
+      "tfidf_score": 0.18353377035785592,
+      "dependency_support": 0.005709032648213403,
+      "graph_degree": 11
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/futsch1/medtimer/helpers/MedicineHelper.kt",
+      "score": 0.01358858858858859,
+      "tfidf_score": 0.1442675157860116,
+      "dependency_support": 0.021361097236206158,
+      "graph_degree": 10
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/SnoozeWork.java",
+      "score": 0.01299545159194282,
+      "tfidf_score": 0.1367230645822085,
+      "dependency_support": 0.01526373032123309,
+      "graph_degree": 5
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/scheduling/ReminderScheduler.java",
+      "score": 0.012906846240179574,
+      "tfidf_score": 0.12643465920615019,
+      "dependency_support": 0.027726975207968192,
+      "graph_degree": 11
+    }
+  ]
+}

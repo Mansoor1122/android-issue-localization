@@ -1,0 +1,60 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6070",
+  "base_sha": "c963cd9ea49b1fa9dd2baf20e11d1b46e75abc62",
+  "method": "tfidf",
+  "indexed_files": 1179,
+  "skipped_files": [],
+  "query": "Nearby: Flawed initial loading of pins.\nCurrently, in nearby, when a user scrolls (which also includes resizing) to a new position in the map), a query is made for items in the rectangular geographical area. Although the query is lightweight (made for only P625), it goes on endlessly until timeout for large enough areas.\r\n\r\nWhen a user zooms out enough, the initial query is made for a large area, so the query takes a long time only to end up in a timeout. When the user then zooms in, a second query should be initiated (discarding the first), but it never happens as per the current logic, which ideally shouldn't happen.\r\nThis part is easy to fix (by ignoring currently running query after a shorter timeout).\r\n\r\nBut ideally, the expensive query should never be made in the first place. Reason:\r\nSay, the area is small enough for the query to return (but still large enough for it to return much greater than 1000 items).\r\nThen the resulting items are sorted in-app (by their distance from the map centre), and only the nearest 1000 items are actually utilized.\r\n\r\nA workaround would be to first query for the items count. If it's much greater than 1000, then query on a smaller square bound centered on the user (in the same manner as a _binary search_). Do it till the number of items in the queried area is under $`1000 \\times \\frac{4}{\\pi}`$.\r\n\r\nHere's an example:\r\n- [The initial query in its current form](https://query.wikidata.org/sparql?query=SELECT%0A%20%20%3Fitem%0A%20%20%28SAMPLE%28%3Flocation%29%20as%20%3Flocation%29%0AWHERE%20%7B%0A%20%20%23%20Around%20given%20location%0A%20%20SERVICE%20wikibase%3Abox%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP625%20%3Flocation.%0A%20%20%20%20%20bd%3AserviceParam%20wikibase%3AcornerWest%20%22Point%282.3321%2048.8376%29%22%5E%5Egeo%3AwktLiteral.%0A%20%20%20%20%20bd%3AserviceParam%20wikibase%3AcornerEast%20%22Point%282.3545%2048.8625%29%22%5E%5Egeo%3AwktLiteral.%0A%20%20%7D%0A%0A%7D%0AGROUP%20BY%20%3Fitem%0A&format=json)\r\n- [The proposed initial query (which returns only the count)](https://query.wikidata.org/sparql?query=SELECT%20(COUNT(DISTINCT%20%3fitem)%20AS%20%3fcount)%0d%0aWHERE%20%7b%0d%0a%20%20SERVICE%20wikibase%3abox%20%7b%0d%0a%20%20%20%20%3fitem%20wdt%3aP625%20%3flocation.%0d%0a%20%20%20%20bd%3aserviceParam%20wikibase%3acornerWest%20%22Point(2.3321%2048.8376)%22%5e%5egeo%3awktLiteral.%0d%0a%20%20%20%20bd%3aserviceParam%20wikibase%3acornerEast%20%22Point(2.3545%2048.8625)%22%5e%5egeo%3awktLiteral.%0d%0a%20%20%7d%0d%0a%7d%0d%0a&format=json)\r\n\r\nAlso, if the area is absurdly big, then even the count-binary-search queries (proposed above) can be dropped and a simple overlay saying \"zoom in to display pins\" can be shown (maybe similar to how chromium based browsers show \"No Internet Connection\").\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/NearbyPlaces.java",
+      "score": 0.22045469381376556
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java",
+      "score": 0.19601585700658405
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.18855120140742887
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/NearbyController.java",
+      "score": 0.18776744070569923
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/presenter/NearbyParentFragmentPresenter.kt",
+      "score": 0.1829170701543226
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/zoomControllers/zoomable/DefaultZoomableController.java",
+      "score": 0.1785442763790425
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.1747493504026373
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/location/LocationPermissionsHelper.kt",
+      "score": 0.16921009141218268
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsFragment.java",
+      "score": 0.1685672006323341
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/explore/map/ExploreMapController.java",
+      "score": 0.16721033848883995
+    }
+  ]
+}

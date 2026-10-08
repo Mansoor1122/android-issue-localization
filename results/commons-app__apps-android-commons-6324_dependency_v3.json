@@ -1,0 +1,96 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6324",
+  "base_sha": "5d7f42d127600f205773214bb877472f259ff552",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 1187,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.17804402974473182,
+      "dependency_support": 0.12582635571787396,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.015924219150025603,
+      "tfidf_score": 0.15773895813676655,
+      "dependency_support": 0.11147646054484393,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.kt",
+      "score": 0.01520624303232999,
+      "tfidf_score": 0.13877321788352373,
+      "dependency_support": 0.020752902153478584,
+      "graph_degree": 31
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsFragment.kt",
+      "score": 0.0146978021978022,
+      "tfidf_score": 0.14331109164932077,
+      "dependency_support": 0.0076225817838515945,
+      "graph_degree": 44
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/MediaDetailPagerFragment.java",
+      "score": 0.014537701104865285,
+      "tfidf_score": 0.12554988476152468,
+      "dependency_support": 0.010632941180717156,
+      "graph_degree": 30
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadContract.kt",
+      "score": 0.014441687344913152,
+      "tfidf_score": 0.1761918784291029,
+      "dependency_support": 0.0031636480870564977,
+      "graph_degree": 6
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/MainActivity.kt",
+      "score": 0.014295125164690383,
+      "tfidf_score": 0.12717802767572645,
+      "dependency_support": 0.007427773915058751,
+      "graph_degree": 36
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/worker/UploadWorker.kt",
+      "score": 0.013247095460534196,
+      "tfidf_score": 0.12272872422985986,
+      "dependency_support": 0.004798447567568949,
+      "graph_degree": 40
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/explore/SearchActivity.java",
+      "score": 0.01320355480321625,
+      "tfidf_score": 0.1238369435971724,
+      "dependency_support": 0.0029575988372073114,
+      "graph_degree": 15
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/depicts/DepictsFragment.kt",
+      "score": 0.013154398086633006,
+      "tfidf_score": 0.12027720162167303,
+      "dependency_support": 0.00546546793644455,
+      "graph_degree": 15
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-2757",
+  "base_sha": "8e9b356074e961c483bb5f64833efcd03e2a3ab7",
+  "method": "tfidf",
+  "indexed_files": 586,
+  "skipped_files": [],
+  "query": "Pressing \"<user> requested to follow you\" android notification sends user to wrong UI\nPressing \"<user> requested to follow you\" android notification doesn't present the user with the \"Follow Requests\" UI. Instead, it presents it with the \"Notifications\" UI, but I'm not sure this is always the case, it could be another too.\r\n\r\nThis is really confusing from user point of view because there's nothing to do in the \"Notifications\" UI. Then the user needs to remember to go press the menu app button, and go to the \"Follow Requests\" UI, then remember the user which showed up in the notification and press the user in the list to finally be able to accept or not.\r\n\r\nWhen the \"<user> requested to follow you\" android notification is pressed, the user shoul be presented either with:\r\nA) The \"Follow Requests\" UI\r\nB) The user's profile, where the \"Accept Request\" + \"Follow\" buttons should be available.\r\n\r\n* * * *\r\n- Tusky Version: 19.0\r\n- Android Version: 11\r\n- Android Device:\r\n- Mastodon instance (if applicable): mastodon.social\r\n\r\n- [X ] I searched or browsed the repo’s other issues to ensure this is not a duplicate.\r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.20300035906635477
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/adapter/FollowRequestsAdapter.kt",
+      "score": 0.19824750756145385
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/TimelineStatusEntity.kt",
+      "score": 0.17017420765447977
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/adapter/FollowRequestsHeaderAdapter.kt",
+      "score": 0.16607724875040009
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/FocalPointUtil.kt",
+      "score": 0.1655317235396398
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Notification.kt",
+      "score": 0.1576199782437894
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/view/MediaPreviewImageView.kt",
+      "score": 0.15599944587731332
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/values-en-rGB/strings.xml",
+      "score": 0.14958184975517352
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/NotificationTypeConverter.kt",
+      "score": 0.14953975863492863
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+      "score": 0.1494447483843206
+    }
+  ]
+}

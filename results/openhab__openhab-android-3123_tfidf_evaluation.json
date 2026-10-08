@@ -1,0 +1,79 @@
+{
+  "instance_id": "openhab__openhab-android-3123",
+  "method": "tfidf",
+  "base_sha": "5e97de2f6e352db785af8448456b4c5e13aa92a9",
+  "all_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/PreferencesActivity.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/AbstractSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ConnectionSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DeviceControlFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DrawerEntriesMenuFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/MainSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/SendDeviceInfoSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ServerEditorFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileOverviewFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/WidgetSettingsFragment.kt"
+  ],
+  "existing_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/PreferencesActivity.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ConnectionSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DeviceControlFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DrawerEntriesMenuFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/MainSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/SendDeviceInfoSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ServerEditorFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileOverviewFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/WidgetSettingsFragment.kt"
+  ],
+  "indexable_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/PreferencesActivity.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ConnectionSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DeviceControlFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DrawerEntriesMenuFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/MainSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/SendDeviceInfoSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ServerEditorFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileOverviewFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileSettingsFragment.kt",
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/WidgetSettingsFragment.kt"
+  ],
+  "unavailable_targets": [
+    "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/AbstractSettingsFragment.kt"
+  ],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ConnectionSettingsFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DeviceControlFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DrawerEntriesMenuFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileOverviewFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/WidgetSettingsFragment.kt"
+      ],
+      "precision": 1.0,
+      "all_target_recall": 0.45454545454545453,
+      "existing_target_recall": 0.5,
+      "indexable_target_recall": 0.5,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/ConnectionSettingsFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DeviceControlFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/DrawerEntriesMenuFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileOverviewFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/TileSettingsFragment.kt",
+        "mobile/src/main/java/org/openhab/habdroid/ui/preference/fragments/WidgetSettingsFragment.kt"
+      ],
+      "precision": 0.6,
+      "all_target_recall": 0.5454545454545454,
+      "existing_target_recall": 0.6,
+      "indexable_target_recall": 0.6,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

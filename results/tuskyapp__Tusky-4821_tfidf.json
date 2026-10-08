@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-4821",
+  "base_sha": "55467affc811a430f983735dcc79ad71f628cd70",
+  "method": "tfidf",
+  "indexed_files": 736,
+  "skipped_files": [],
+  "query": "Blocked users remain in notifications\n### Detailed description\n\nAfter blocking a user, notifications from or about that user should be removed or hidden.\n\n### Steps to reproduce the problem\n\nActual behavior: \r\n\r\n* I received a notification of a new follower\r\n* I examine their profile and determined it was a spam account\r\n* I blocked the user (and reported them)\r\n* The \"new follower\" notification still appears on the Notifications tab\r\n\r\nExpected behavior: \r\n\r\n* The notification should be removed or hidden\r\n\r\nNote: the notification is not visible through the octodon.social Mastodon web interface, so this could be a caching issue.\n\n### Debug information\n\nTusky version 27.0 beta 1\r\nAndroid 15 build AP4A.241205.013\r\nPixel 6 Pro\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/accountlist/adapter/BlocksAdapter.kt",
+      "score": 0.19997572174866635
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.1876285972436939
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/NotificationRequest.kt",
+      "score": 0.16455897605141864
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/res/layout/item_blocked_user.xml",
+      "score": 0.15916221493585195
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/account/AccountPagerAdapter.kt",
+      "score": 0.15800365643976186
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/UnknownNotificationViewHolder.kt",
+      "score": 0.15717118643458508
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/res/menu/fragment_notifications.xml",
+      "score": 0.15066532343259156
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/NotificationTypeConverter.kt",
+      "score": 0.1506307377919215
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/systemnotifications/NotificationFetcher.kt",
+      "score": 0.15008630555550528
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationPolicySummaryAdapter.kt",
+      "score": 0.15007727580697353
+    }
+  ]
+}

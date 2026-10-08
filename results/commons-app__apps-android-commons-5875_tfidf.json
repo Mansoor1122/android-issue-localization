@@ -1,0 +1,60 @@
+{
+  "instance_id": "commons-app__apps-android-commons-5875",
+  "base_sha": "f1205c19be7dccefc2b65f4d4c95bfb36c06c23c",
+  "method": "tfidf",
+  "indexed_files": 1175,
+  "skipped_files": [],
+  "query": "[Tech Debt] Remove usage of deprecated `startActivityForResult` & `onActivityResult` APIs  in favour of decoupled result APIs\nRemove usage of deprecated `startActivityForResult` & `onActivityResult` APIs  in favour of decoupled result APIs. \r\n\r\n> While the underlying [startActivityForResult()](https://developer.android.com/reference/android/app/Activity#startActivityForResult(android.content.Intent,%20int)) and [onActivityResult()](https://developer.android.com/reference/android/app/Activity#onActivityResult(int,%20int,%20android.content.Intent)) APIs are available on the Activity class on all API levels, Google strongly recommends using the Activity Result APIs introduced in AndroidX [Activity](https://developer.android.com/jetpack/androidx/releases/activity) and [Fragment](https://developer.android.com/jetpack/androidx/releases/fragment) classes.\r\n\r\nFor more on what benefits it offers refer here https://developer.android.com/training/basics/intents/result#custom\r\n\r\nP.S: We already have newer code using this API. Only some place that needs refactor.\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java",
+      "score": 0.1567857638205048
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/bookmarks/locations/BookmarkLocationsFragment.java",
+      "score": 0.1503347502994958
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/category/CategoryDetailsActivity.java",
+      "score": 0.14979319172637534
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/mediaDetails/UploadMediaDetailFragment.java",
+      "score": 0.1497671075594056
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/location/LocationPermissionsHelper.java",
+      "score": 0.14705135636892724
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/explore/depictions/WikidataItemDetailsActivity.java",
+      "score": 0.1454380462124292
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/utils/ActivityUtils.java",
+      "score": 0.13845447744453454
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/MainActivity.java",
+      "score": 0.1376063950763049
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/MediaDetailPagerFragment.java",
+      "score": 0.1351887931123711
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/ContributionController.java",
+      "score": 0.13312976941413118
+    }
+  ]
+}

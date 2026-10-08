@@ -1,0 +1,42 @@
+{
+  "instance_id": "tuskyapp__Tusky-3448",
+  "method": "tfidf",
+  "base_sha": "3bb92d51bf8331c57ed2a24f3f816039ad641e19",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsPagingSource.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsRepository.kt",
+    "app/src/main/java/com/keylesspalace/tusky/entity/Error.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsPagingSource.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsRepository.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsPagingSource.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsRepository.kt"
+  ],
+  "unavailable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/entity/Error.kt"
+  ],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

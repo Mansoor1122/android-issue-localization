@@ -1,0 +1,48 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6041",
+  "method": "dependency_v2",
+  "base_sha": "5500b039762b63d18b794bb0bc68d2a84a495166",
+  "all_targets": [
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionBoundaryCallback.kt",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListContract.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListPresenter.java",
+    "app/src/main/res/layout/fragment_contributions_list.xml"
+  ],
+  "existing_targets": [
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionBoundaryCallback.kt",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListContract.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListPresenter.java",
+    "app/src/main/res/layout/fragment_contributions_list.xml"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionBoundaryCallback.kt",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListContract.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListPresenter.java",
+    "app/src/main/res/layout/fragment_contributions_list.xml"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

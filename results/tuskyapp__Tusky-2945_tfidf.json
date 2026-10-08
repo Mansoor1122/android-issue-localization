@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-2945",
+  "base_sha": "8437fbd60513ec5279502e59ff0a02e3c5605611",
+  "method": "tfidf",
+  "indexed_files": 589,
+  "skipped_files": [],
+  "query": "Missing support for GoToSocial and microblog.pub links in looksLikeMastodonUrl\nTusky currently supports automated lookup of posts (i.e., URLs inside other posts) from Mastodon, Pleroma, Friendica, Misskey, and Pixelfed, but it fails when it comes to [GoToSocial](https://gotosocial.org/) or [microblog.pub](https://docs.microblog.pub/). I have absolutely no experience with Kotlin or the workflow here, so I'm not really comfortable with creating a pull request myself. But if someone is willing to do it, I believe the correct regexes are as follows:\r\n\r\n* `\"^/@[^/]+/statuses/[0-9ABCDEFGHJKMNPQRSTVWXYZabcdefghjkmnpqrstvwxyz]{26}$\"` for GoToSocial posts\r\n  * It uses ULID, so it's guaranteed to be 26 symbols in Crockford's Base 32. And it seems to be case-insensitive.\r\n  * See https://github.com/superseriousbusiness/gotosocial/blob/25edd57eaf3eecf0b449a4dabb5b5fc5d6ae7687/internal/id/ulid.go#L35 and https://github.com/oklog/ulid\r\n* `\"^/o/[0-9a-f]{32}$\"` for microblog.pub posts\r\n  * It uses UUID, so it's guaranteed to be 32 hex symbols. It is case-sensitive (lowercase).\r\n  * See https://git.sr.ht/~tsileo/microblog.pub/tree/v2/item/app/boxes.py#L51\r\n* Optionally `\"^/articles/[0-9a-f]{7}/[-\\\\w]+$\"` for microblog.pub articles\r\n  * Articles use a combination of the short id (currently first 7 characters of the actual id) and a slug.\r\n  * Maybe something more general like `\"^/articles/[0-9a-f]+/[-\\\\w]+$\"` should be used in case they decide to change the length of the short id.\r\n  * This is not necessary as it would complicate getting to the actual article. Users would be forced to use the \"Open in browser\" button to see the whole content. (Mastodon shows only the name of the article.)\r\n  * See https://git.sr.ht/~tsileo/microblog.pub/tree/v2/item/app/boxes.py#L658 and https://git.sr.ht/~tsileo/microblog.pub/tree/v2/item/app/utils/text.py#L5\r\n\r\nIt's supposed to go in Tusky/app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt.\r\n\r\n* * * *\r\n- Tusky Version: 19.0\r\n- Android Version: 11\r\n- Android Device: FP4\r\n- Mastodon instance (if applicable):\r\n\r\n- [X] I searched or browsed the repo’s other issues to ensure this is not a duplicate.\r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt",
+      "score": 0.2331258257438022
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/compose/ComposeTokenizer.kt",
+      "score": 0.17380332296683643
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/SplashActivity.kt",
+      "score": 0.16951438876313374
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Conversation.kt",
+      "score": 0.1663584666923604
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/StatusParams.kt",
+      "score": 0.1644371001142181
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/CustomFragmentStateAdapter.kt",
+      "score": 0.1643731344004252
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.15988337379520573
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/interfaces/LinkListener.kt",
+      "score": 0.15970067944953398
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/search/SearchType.kt",
+      "score": 0.15823219729868038
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/FocalPointUtil.kt",
+      "score": 0.15799374596279597
+    }
+  ]
+}

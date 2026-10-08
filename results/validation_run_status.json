@@ -1,0 +1,604 @@
+[
+  {
+    "instance_id": "AntennaPod__AntennaPod-6573",
+    "base_sha": "5ae766b1a1557e2a54627e6b3c83c54c6578995d",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "AntennaPod__AntennaPod-6659",
+    "base_sha": "574ec1434c885429e0d9b4061dff765eb7284701",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "AntennaPod__AntennaPod-7098",
+    "base_sha": "cb1a03cd8d55efca8a815d9c55b6a9a6448c0267",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "AntennaPod__AntennaPod-7537",
+    "base_sha": "310ce203cea26cf14dc8514ab72d028e545640ab",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "AntennaPod__AntennaPod-7954",
+    "base_sha": "944e0690ba5a070ad02834a3c3d90946bf3ee738",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "Futsch1__medTimer-108",
+    "base_sha": "49ec3d1b8b20e9fbf8baa672cdfea88c3f582689",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "Futsch1__medTimer-29",
+    "base_sha": "43719af52d91f0e48ccdaa5a9a6554e924137649",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "Futsch1__medTimer-54",
+    "base_sha": "69c1ef4a661eb2db9737f95fa2df3472e31c91ed",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "Futsch1__medTimer-584",
+    "base_sha": "c0f542345ea0d1925d6b1e28ce807d4ecc6de035",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 1
+      }
+    ],
+    "initial_attempt": {
+      "status": "failed",
+      "steps": [
+        {
+          "command": [
+            "src/prepare_repository.py"
+          ],
+          "returncode": 1
+        }
+      ],
+      "failed_step": [
+        "src/prepare_repository.py"
+      ]
+    },
+    "retry_note": "Preparation and both retrieval/evaluation methods succeeded on retry."
+  },
+  {
+    "instance_id": "Futsch1__medTimer-70",
+    "base_sha": "53f561b878fa7dd4c66f484f8c9e253b8fc7e790",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "openhab__openhab-android-2925",
+    "base_sha": "1baee50328207731213ada3297407d9cfefd04f3",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "openhab__openhab-android-2959",
+    "base_sha": "f3df754edb0f47dd31f27f9977d3676196d35e92",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "openhab__openhab-android-3021",
+    "base_sha": "2b164c8b66bc0316a99181325ea9eaa9d36158a3",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "openhab__openhab-android-3123",
+    "base_sha": "5e97de2f6e352db785af8448456b4c5e13aa92a9",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "instance_id": "openhab__openhab-android-3770",
+    "base_sha": "f23ebe4491b61674b2f48e9739c9f1ee0042ab1c",
+    "status": "completed",
+    "steps": [
+      {
+        "command": [
+          "src/prepare_repository.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_tfidf.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/retrieve_dependency_v3.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "tfidf"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "src/evaluate_retrieval.py",
+          "--method",
+          "dependency_v3"
+        ],
+        "returncode": 0
+      }
+    ]
+  }
+]

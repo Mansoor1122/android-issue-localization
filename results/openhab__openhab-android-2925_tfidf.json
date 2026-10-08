@@ -1,0 +1,60 @@
+{
+  "instance_id": "openhab__openhab-android-2925",
+  "base_sha": "1baee50328207731213ada3297407d9cfefd04f3",
+  "method": "tfidf",
+  "indexed_files": 620,
+  "skipped_files": [],
+  "query": "Android Device Controls: subtitle\n### Is your feature request related to a problem? Please describe.\r\nAndroid Device Controls, subtitles missing. Opportunity to display useful Information like \"item.name\" missed.\r\n\r\n### Describe the solution you'd like\r\nUse` .setSubtitle() `to add additional Information like location or name of parent item. \r\n\r\nI added: \r\n`.setSubtitle(item.name)`\r\nunder line 319 and under line 326 in the file `ItemsControlsProviderService.kt` (path: \\openhab-android-main\\mobile\\src\\main\\java\\org\\openhab\\habdroid\\background)\r\n\r\nThe results can be seen in the screenshots below.\r\n\r\n### Describe alternatives you've considered\r\nShowing the item location, instead of item name, would also be a good alternative.\r\n\r\n### Additional context\r\n**Current state (used paint to remove subtitles, as I use the app with my the implemented code now):**\r\n\r\n<img src='https://user-images.githubusercontent.com/36895999/167680478-2dd204b7-4146-4614-85da-7dd7091a9bf6.png' width='300'>\r\n\r\n\r\n**With implemented Code:**\r\n\r\n<img src='https://user-images.githubusercontent.com/36895999/167680548-882d5bd0-a9b6-4b1d-b468-ca10ff9690b0.png' width='300'>\r\n\r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "mobile/src/main/java/org/openhab/habdroid/core/connection/Connection.kt",
+      "score": 0.189245374890488
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/res/values/strings.xml",
+      "score": 0.17394238477169707
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/java/org/openhab/habdroid/background/ItemsControlsProviderService.kt",
+      "score": 0.1686640017226773
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/res/drawable/ic_spinner_caret_themed.xml",
+      "score": 0.16150216138063786
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/res/values-da/strings.xml",
+      "score": 0.1597950500688528
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/res/drawable-night/ic_spinner_caret_themed.xml",
+      "score": 0.15963111221116183
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/preference/ItemAndStatePreference.kt",
+      "score": 0.15615890098552035
+    },
+    {
+      "rank": 8,
+      "path": "mobile/src/main/res/values-is/strings.xml",
+      "score": 0.1514365041245816
+    },
+    {
+      "rank": 9,
+      "path": "assets/store_descriptions/en-US/strings.xml",
+      "score": 0.14953759280073875
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/res/values-hi/strings.xml",
+      "score": 0.14944574543189182
+    }
+  ]
+}

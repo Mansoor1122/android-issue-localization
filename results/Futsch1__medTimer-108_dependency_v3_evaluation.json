@@ -1,0 +1,104 @@
+{
+  "instance_id": "Futsch1__medTimer-108",
+  "method": "dependency_v3",
+  "base_sha": "49ec3d1b8b20e9fbf8baa672cdfea88c3f582689",
+  "all_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/java/com/futsch1/medtimer/BackupManager.java",
+    "app/src/main/java/com/futsch1/medtimer/NextReminderListener.java",
+    "app/src/main/java/com/futsch1/medtimer/OptionsMenu.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONBackup.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONMedicineBackup.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONReminderEventBackup.java",
+    "app/src/main/java/com/futsch1/medtimer/database/ReminderEvent.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/FileHelper.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/PathHelper.java",
+    "app/src/main/res/drawable/box_arrow_down.xml",
+    "app/src/main/res/drawable/box_arrow_in_down.xml",
+    "app/src/main/res/drawable/calendar2_event.xml",
+    "app/src/main/res/drawable/filetype_csv.xml",
+    "app/src/main/res/drawable/filetype_pdf.xml",
+    "app/src/main/res/drawable/trash.xml",
+    "app/src/main/res/layout/preferences_activity.xml",
+    "app/src/main/res/menu/main.xml",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values-fr/strings.xml",
+    "app/src/main/res/values-nl/strings.xml",
+    "app/src/main/res/values/strings.xml",
+    "build.gradle.kts"
+  ],
+  "existing_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/java/com/futsch1/medtimer/NextReminderListener.java",
+    "app/src/main/java/com/futsch1/medtimer/OptionsMenu.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONBackup.java",
+    "app/src/main/java/com/futsch1/medtimer/database/ReminderEvent.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/FileHelper.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/PathHelper.java",
+    "app/src/main/res/layout/preferences_activity.xml",
+    "app/src/main/res/menu/main.xml",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values-fr/strings.xml",
+    "app/src/main/res/values-nl/strings.xml",
+    "app/src/main/res/values/strings.xml",
+    "build.gradle.kts"
+  ],
+  "indexable_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/java/com/futsch1/medtimer/NextReminderListener.java",
+    "app/src/main/java/com/futsch1/medtimer/OptionsMenu.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONBackup.java",
+    "app/src/main/java/com/futsch1/medtimer/database/ReminderEvent.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/FileHelper.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/PathHelper.java",
+    "app/src/main/res/layout/preferences_activity.xml",
+    "app/src/main/res/menu/main.xml",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values-fr/strings.xml",
+    "app/src/main/res/values-nl/strings.xml",
+    "app/src/main/res/values/strings.xml",
+    "build.gradle.kts"
+  ],
+  "unavailable_targets": [
+    "app/src/main/java/com/futsch1/medtimer/BackupManager.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONMedicineBackup.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONReminderEventBackup.java",
+    "app/src/main/res/drawable/box_arrow_down.xml",
+    "app/src/main/res/drawable/box_arrow_in_down.xml",
+    "app/src/main/res/drawable/calendar2_event.xml",
+    "app/src/main/res/drawable/filetype_csv.xml",
+    "app/src/main/res/drawable/filetype_pdf.xml",
+    "app/src/main/res/drawable/trash.xml"
+  ],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/build.gradle.kts",
+        "app/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.4,
+      "all_target_recall": 0.08333333333333333,
+      "existing_target_recall": 0.13333333333333333,
+      "indexable_target_recall": 0.13333333333333333,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/build.gradle.kts",
+        "app/src/main/res/menu/main.xml",
+        "app/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.3,
+      "all_target_recall": 0.125,
+      "existing_target_recall": 0.2,
+      "indexable_target_recall": 0.2,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

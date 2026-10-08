@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-4638",
+  "base_sha": "da54cda88ecc855998eed574862bf07454e0c882",
+  "method": "tfidf",
+  "indexed_files": 705,
+  "skipped_files": [],
+  "query": "Tusky 26: Repeated force-close in notifications view (Friendica)\n### Detailed description\n\nUnsure how to completely reproduce or describe this: Been using Tusky with Friendica quite reliably for white a while now, but with the 26 (Google Play) release this has turned pretty unstable. Observations:\r\n\r\n- Notifications don't seem to appear or be loaded anymore at all.\r\n- Opening the notification tab does display \"something\" but this doesn't seem to be up-to-date most of the time.\r\n- Trying to refresh notifications will make the app crash / force-close.\r\n\r\nWhat other information can I provide to track this down...?\n\n### Steps to reproduce the problem\n\n_No response_\n\n### Debug information\n\nTusky 26 (Google Play build)\r\nAndroid 12\r\nloma.ml instance (Friendica 2024.06rc)\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.13321401315284648
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsRemoteMediator.kt",
+      "score": 0.13226451806911826
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/UnknownNotificationViewHolder.kt",
+      "score": 0.13004197878950385
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/fragment/ViewVideoFragment.kt",
+      "score": 0.12861847796249493
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/res/menu/fragment_notifications.xml",
+      "score": 0.12601652940292257
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/systemnotifications/NotificationFetcher.kt",
+      "score": 0.12324749487326703
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/view/TuskySwipeRefreshLayout.kt",
+      "score": 0.1141082458214823
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/timeline/TimelineFragment.kt",
+      "score": 0.11014305023690087
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsViewModel.kt",
+      "score": 0.10946802699370892
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/entity/AccountEntity.kt",
+      "score": 0.10799641052868746
+    }
+  ]
+}

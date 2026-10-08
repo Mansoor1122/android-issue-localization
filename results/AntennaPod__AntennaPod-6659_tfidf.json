@@ -1,0 +1,60 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-6659",
+  "base_sha": "574ec1434c885429e0d9b4061dff765eb7284701",
+  "method": "tfidf",
+  "indexed_files": 851,
+  "skipped_files": [],
+  "query": "Sort downloads by size\n### Checklist\n\n- [X] I have used the search function for [open](https://github.com/AntennaPod/AntennaPod/issues) **and** [closed](https://github.com/AntennaPod/AntennaPod/issues?q=is%3Aissue+is%3Aclosed) issues to see if someone else has already submitted the same feature request.\n- [X] I will describe the problem with as much detail as possible.\n- [X] This request contains only one single feature, **not** a list of multiple (related) features.\n\n### App version\n\n3.1.0\n\n### Where did you get the app from\n\nGoogle Play\n\n### Problem you may be having, or feature you want\n\nThe Downloads pane supports sorting by date, duration and title, but it would be nice to be able to sort by size of the file, to see large episodes that are taking up space.\n\n### Suggested solution\n\nAdd a new sort\n\n### Screenshots / Drawings / Technical details\n\n_No response_\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "ui/i18n/src/main/res/values/strings.xml",
+      "score": 0.1983198420626044
+    },
+    {
+      "rank": 2,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/DBTasks.java",
+      "score": 0.19229754773711408
+    },
+    {
+      "rank": 3,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/export/CommonSymbols.java",
+      "score": 0.17935982155084765
+    },
+    {
+      "rank": 4,
+      "path": "playback/base/src/main/java/de/danoeh/antennapod/playback/base/PlaybackServiceMediaPlayer.java",
+      "score": 0.1670837126249625
+    },
+    {
+      "rank": 5,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/AutomaticDownloadAlgorithm.java",
+      "score": 0.16650568384050526
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/de/danoeh/antennapod/view/NestedScrollableHost.java",
+      "score": 0.1663726818228235
+    },
+    {
+      "rank": 7,
+      "path": "model/src/main/java/de/danoeh/antennapod/model/feed/Feed.java",
+      "score": 0.16069921227938
+    },
+    {
+      "rank": 8,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/DBWriter.java",
+      "score": 0.16069556461741683
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/res/layout/simple_list_item_multiple_choice_on_start.xml",
+      "score": 0.1577957150346168
+    },
+    {
+      "rank": 10,
+      "path": "core/src/main/java/de/danoeh/antennapod/core/storage/DBReader.java",
+      "score": 0.15649568504805805
+    }
+  ]
+}

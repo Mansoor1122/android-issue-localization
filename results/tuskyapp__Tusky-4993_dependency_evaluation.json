@@ -1,0 +1,42 @@
+{
+  "instance_id": "tuskyapp__Tusky-4993",
+  "method": "dependency",
+  "base_sha": "271514f2ce5f57fc01aa1e9987e18fbeb0dad684",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/di/NetworkModule.kt",
+    "app/src/main/java/com/keylesspalace/tusky/entity/PreviewCard.kt",
+    "app/src/main/java/com/keylesspalace/tusky/json/GuardedAdapter.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/di/NetworkModule.kt",
+    "app/src/main/java/com/keylesspalace/tusky/entity/PreviewCard.kt",
+    "app/src/main/java/com/keylesspalace/tusky/json/GuardedAdapter.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/di/NetworkModule.kt",
+    "app/src/main/java/com/keylesspalace/tusky/entity/PreviewCard.kt",
+    "app/src/main/java/com/keylesspalace/tusky/json/GuardedAdapter.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

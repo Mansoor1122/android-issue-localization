@@ -1,0 +1,60 @@
+{
+  "instance_id": "openhab__openhab-android-3770",
+  "base_sha": "f23ebe4491b61674b2f48e9739c9f1ee0042ab1c",
+  "method": "tfidf",
+  "indexed_files": 680,
+  "skipped_files": [],
+  "query": "Sitemaps Input widget strips off `[]` characters\n### Actual behaviour\r\n\r\nItem:\r\n```\r\nString TestString1\r\n```\r\n\r\nSitemap:\r\n```\r\nsitemap test {\r\n  Input item=TestString1\r\n}\r\n```\r\n\r\n- Open that sitemap on android 3.15.0\r\n- Enter `abcdefgh[]` into the text field, and click the checkmark (enter) on the Android's virtual keyboard\r\n- The app will send a command `abcdefgh[]` to the item but then changed the text inside the input field to `abcdefgh` stripping away the `[]`\r\n- The same thing would happen if `[]` is entered in the middle of the string, e.g. `abcdefg[]h` - > it strips off everything after `[]` so the text became `abcdefg` (note the `h` is also gone)\r\n- But this \"bug\" doesn't happen, if `[]` is at the very beginning of the string, e.g. `[]abcdefgh` - the `[]` don't get stripped off, and neither do they get stripped off when I entered `[]abcdefgh[]`.\r\n\r\n### Expected behaviour\r\n\r\nIt shouldn't strip off any text inputs\r\n\r\n \r\n### Steps to reproduce\r\nDescribed above\r\n\r\n\r\n### Environment data\r\n#### Client\r\n* Android version: Android 14\r\n* App version 3.15.0\r\n* Build flavor Play Store\r\n* Device language: English\r\n\r\n#### Server\r\n* Server version: 4.3.0-SNAPSHOT\r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "mobile/src/main/res/values/strings.xml",
+      "score": 0.20026652194624822
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/res/values-is/strings.xml",
+      "score": 0.19126223499449885
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/res/values-da/strings.xml",
+      "score": 0.1894538888990451
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/res/values-zh/strings.xml",
+      "score": 0.1893171639129246
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/res/values-hi/strings.xml",
+      "score": 0.18928983972860672
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/res/values-sk/strings.xml",
+      "score": 0.18928983972860672
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/res/values-ko/strings.xml",
+      "score": 0.18922508680900046
+    },
+    {
+      "rank": 8,
+      "path": "mobile/src/main/res/values-th/strings.xml",
+      "score": 0.18922508680900046
+    },
+    {
+      "rank": 9,
+      "path": "mobile/src/main/res/values-fa/strings.xml",
+      "score": 0.1891859545319669
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/res/values-af/strings.xml",
+      "score": 0.1890868853817518
+    }
+  ]
+}

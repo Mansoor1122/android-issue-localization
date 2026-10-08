@@ -1,0 +1,96 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6529",
+  "base_sha": "3a55583460d3294efc7ae2000616d1cb4ec6ad68",
+  "method": "dependency_v2",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 1200,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/campaigns/ICampaignsView.kt",
+      "score": 0.01601330482299834,
+      "tfidf_score": 0.1982280955857484,
+      "dependency_support": 0.03246770286808874,
+      "graph_degree": 5
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignResponseDTO.kt",
+      "score": 0.015977101223002863,
+      "tfidf_score": 0.18351333215854965,
+      "dependency_support": 0.10393274885840263,
+      "graph_degree": 3
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignsPresenter.kt",
+      "score": 0.015888300433317286,
+      "tfidf_score": 0.1974485159842395,
+      "dependency_support": 0.04237088655657935,
+      "graph_degree": 8
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/campaigns/CampaignConfig.kt",
+      "score": 0.015248868778280545,
+      "tfidf_score": 0.1355216715258131,
+      "dependency_support": 0.04048157538282977,
+      "graph_degree": 1
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsFragment.kt",
+      "score": 0.015017221584385764,
+      "tfidf_score": 0.13398907789232783,
+      "dependency_support": 0.05681761172775644,
+      "graph_degree": 47
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/campaigns/models/Campaign.kt",
+      "score": 0.014820009350163628,
+      "tfidf_score": 0.12917742222424855,
+      "dependency_support": 0.08493804524144684,
+      "graph_degree": 6
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/mwapi/OkHttpJsonApiClient.kt",
+      "score": 0.013431013431013432,
+      "tfidf_score": 0.11356444798132251,
+      "dependency_support": 0.08016527420742255,
+      "graph_degree": 40
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/profile/leaderboard/LeaderboardFragment.kt",
+      "score": 0.013374913374913375,
+      "tfidf_score": 0.11854126421073513,
+      "dependency_support": 0.013367388749501477,
+      "graph_degree": 15
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/profile/leaderboard/DataSourceClass.kt",
+      "score": 0.0125974025974026,
+      "tfidf_score": 0.10833116500152641,
+      "dependency_support": 0.013367388749501477,
+      "graph_degree": 7
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/profile/leaderboard/LeaderboardConstants.kt",
+      "score": 0.0125,
+      "tfidf_score": 0.14139484608629646,
+      "dependency_support": 0.0,
+      "graph_degree": 7
+    }
+  ]
+}

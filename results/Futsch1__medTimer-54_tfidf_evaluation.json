@@ -1,0 +1,107 @@
+{
+  "instance_id": "Futsch1__medTimer-54",
+  "method": "tfidf",
+  "base_sha": "69c1ef4a661eb2db9737f95fa2df3472e31c91ed",
+  "all_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/AndroidManifest.xml",
+    "app/src/main/java/com/futsch1/medtimer/MainActivity.java",
+    "app/src/main/java/com/futsch1/medtimer/OptionsMenu.java",
+    "app/src/main/java/com/futsch1/medtimer/PreferencesActivity.java",
+    "app/src/main/java/com/futsch1/medtimer/PreferencesFragment.java",
+    "app/src/main/java/com/futsch1/medtimer/ViewPagerAdapter.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONBackup.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Medicine.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineDao.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRepository.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRoomDatabase.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineWithReminders.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Reminder.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/FileHelper.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/PathHelper.java",
+    "app/src/main/res/layout/preferences_activity.xml",
+    "app/src/main/res/menu/main.xml",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values/arrays.xml",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/xml/root_preferences.xml"
+  ],
+  "existing_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/AndroidManifest.xml",
+    "app/src/main/java/com/futsch1/medtimer/MainActivity.java",
+    "app/src/main/java/com/futsch1/medtimer/PreferencesFragment.java",
+    "app/src/main/java/com/futsch1/medtimer/ViewPagerAdapter.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Medicine.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineDao.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRepository.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRoomDatabase.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineWithReminders.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Reminder.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/PathHelper.java",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values/arrays.xml",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/xml/root_preferences.xml"
+  ],
+  "indexable_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/AndroidManifest.xml",
+    "app/src/main/java/com/futsch1/medtimer/MainActivity.java",
+    "app/src/main/java/com/futsch1/medtimer/PreferencesFragment.java",
+    "app/src/main/java/com/futsch1/medtimer/ViewPagerAdapter.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Medicine.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineDao.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRepository.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRoomDatabase.java",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineWithReminders.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Reminder.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/PathHelper.java",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values-es/strings.xml",
+    "app/src/main/res/values/arrays.xml",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/xml/root_preferences.xml"
+  ],
+  "unavailable_targets": [
+    "app/src/main/java/com/futsch1/medtimer/OptionsMenu.java",
+    "app/src/main/java/com/futsch1/medtimer/PreferencesActivity.java",
+    "app/src/main/java/com/futsch1/medtimer/database/JSONBackup.java",
+    "app/src/main/java/com/futsch1/medtimer/helpers/FileHelper.java",
+    "app/src/main/res/layout/preferences_activity.xml",
+    "app/src/main/res/menu/main.xml"
+  ],
+  "excluded_paths": [
+    "app/src/main/play/listings/de-DE/full-description.txt",
+    "app/src/main/play/listings/en-US/full-description.txt",
+    "app/src/main/play/listings/es-ES/full-description.txt"
+  ],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/com/futsch1/medtimer/PreferencesFragment.java",
+        "app/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.4,
+      "all_target_recall": 0.08695652173913043,
+      "existing_target_recall": 0.11764705882352941,
+      "indexable_target_recall": 0.11764705882352941,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/com/futsch1/medtimer/PreferencesFragment.java",
+        "app/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.08695652173913043,
+      "existing_target_recall": 0.11764705882352941,
+      "indexable_target_recall": 0.11764705882352941,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

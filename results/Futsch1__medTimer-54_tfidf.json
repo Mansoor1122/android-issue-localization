@@ -1,0 +1,60 @@
+{
+  "instance_id": "Futsch1__medTimer-54",
+  "base_sha": "69c1ef4a661eb2db9737f95fa2df3472e31c91ed",
+  "method": "tfidf",
+  "indexed_files": 88,
+  "skipped_files": [],
+  "query": "Export/import med settings/data plan\nUnfortunately the app (1.4.2) crashed at one point so bad, that all reinstalling didn't help. Not sure if it was a Xiaomi issue. First notifications stopped. Then after checking and editing some energy saving mode, the app didn't start any more at all. \n\nWhat helped was a simple uninstall and install.\n\nTo prevent in the future a full new creation and configuration of the medication plan, a Export/import function would really be helpful.\n\nThanks, Michael \n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.2053417179176777
+    },
+    {
+      "rank": 2,
+      "path": "gradle.properties",
+      "score": 0.2016240925633835
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/ReminderScheduler.java",
+      "score": 0.15001689189040843
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/futsch1/medtimer/PreferencesFragment.java",
+      "score": 0.12674082433179054
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+      "score": 0.1113740789771608
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewAdapter.java",
+      "score": 0.09750139352038446
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/futsch1/medtimer/NotificationChannelManager.java",
+      "score": 0.09591773291641853
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "score": 0.09273623013071225
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "score": 0.09067533710108407
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/ReminderProcessor.java",
+      "score": 0.08842424112816918
+    }
+  ]
+}

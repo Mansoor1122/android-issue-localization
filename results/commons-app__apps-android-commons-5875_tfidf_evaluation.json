@@ -1,0 +1,100 @@
+{
+  "instance_id": "commons-app__apps-android-commons-5875",
+  "method": "tfidf",
+  "base_sha": "f1205c19be7dccefc2b65f4d4c95bfb36c06c23c",
+  "all_targets": [
+    "app/src/main/java/fr/free/nrw/commons/CommonsApplication.java",
+    "app/src/main/java/fr/free/nrw/commons/bookmarks/locations/BookmarkLocationsFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionController.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/MainActivity.java",
+    "app/src/main/java/fr/free/nrw/commons/customselector/ui/selector/CustomSelectorActivity.kt",
+    "app/src/main/java/fr/free/nrw/commons/description/DescriptionEditActivity.kt",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/Constants.java",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java",
+    "app/src/main/java/fr/free/nrw/commons/media/MediaDetailFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/PlaceAdapterDelegate.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/CommonPlaceClickActions.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/PlaceAdapter.kt",
+    "app/src/main/java/fr/free/nrw/commons/settings/SettingsFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/UploadMediaDetailAdapter.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/mediaDetails/UploadMediaDetailFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/utils/PermissionUtils.java"
+  ],
+  "existing_targets": [
+    "app/src/main/java/fr/free/nrw/commons/CommonsApplication.java",
+    "app/src/main/java/fr/free/nrw/commons/bookmarks/locations/BookmarkLocationsFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionController.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/MainActivity.java",
+    "app/src/main/java/fr/free/nrw/commons/customselector/ui/selector/CustomSelectorActivity.kt",
+    "app/src/main/java/fr/free/nrw/commons/description/DescriptionEditActivity.kt",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/Constants.java",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java",
+    "app/src/main/java/fr/free/nrw/commons/media/MediaDetailFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/PlaceAdapterDelegate.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/CommonPlaceClickActions.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/PlaceAdapter.kt",
+    "app/src/main/java/fr/free/nrw/commons/settings/SettingsFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/UploadMediaDetailAdapter.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/mediaDetails/UploadMediaDetailFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/utils/PermissionUtils.java"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/fr/free/nrw/commons/CommonsApplication.java",
+    "app/src/main/java/fr/free/nrw/commons/bookmarks/locations/BookmarkLocationsFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionController.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsListFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/contributions/MainActivity.java",
+    "app/src/main/java/fr/free/nrw/commons/customselector/ui/selector/CustomSelectorActivity.kt",
+    "app/src/main/java/fr/free/nrw/commons/description/DescriptionEditActivity.kt",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/Constants.java",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java",
+    "app/src/main/java/fr/free/nrw/commons/media/MediaDetailFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/PlaceAdapterDelegate.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/CommonPlaceClickActions.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/PlaceAdapter.kt",
+    "app/src/main/java/fr/free/nrw/commons/settings/SettingsFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/UploadMediaDetailAdapter.java",
+    "app/src/main/java/fr/free/nrw/commons/upload/mediaDetails/UploadMediaDetailFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/utils/PermissionUtils.java"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/fr/free/nrw/commons/bookmarks/locations/BookmarkLocationsFragment.java",
+        "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java",
+        "app/src/main/java/fr/free/nrw/commons/upload/mediaDetails/UploadMediaDetailFragment.java"
+      ],
+      "precision": 0.6,
+      "all_target_recall": 0.15789473684210525,
+      "existing_target_recall": 0.15789473684210525,
+      "indexable_target_recall": 0.15789473684210525,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/fr/free/nrw/commons/bookmarks/locations/BookmarkLocationsFragment.java",
+        "app/src/main/java/fr/free/nrw/commons/contributions/ContributionController.java",
+        "app/src/main/java/fr/free/nrw/commons/contributions/MainActivity.java",
+        "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java",
+        "app/src/main/java/fr/free/nrw/commons/upload/mediaDetails/UploadMediaDetailFragment.java"
+      ],
+      "precision": 0.5,
+      "all_target_recall": 0.2631578947368421,
+      "existing_target_recall": 0.2631578947368421,
+      "indexable_target_recall": 0.2631578947368421,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

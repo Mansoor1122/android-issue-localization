@@ -1,0 +1,60 @@
+{
+  "instance_id": "Futsch1__medTimer-70",
+  "base_sha": "53f561b878fa7dd4c66f484f8c9e253b8fc7e790",
+  "method": "tfidf",
+  "indexed_files": 97,
+  "skipped_files": [],
+  "query": "Weekend notification delay\nIt should be possible to configure an \"earliest notification time\" for weekends or configurable days. This setting will result in all earlier reminders for that day to be scheduled at that time (like a \"do not disturb\" setting).\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "gradle.properties",
+      "score": 0.21431237983636114
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.17813218820085477
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/ReminderWork.java",
+      "score": 0.14010871661356566
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/SnoozeWork.java",
+      "score": 0.11523923265347243
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/ReminderScheduler.java",
+      "score": 0.11075053899737304
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+      "score": 0.10720555878887902
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/futsch1/medtimer/helpers/MedicineHelper.java",
+      "score": 0.099045432357246
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/TakenWork.java",
+      "score": 0.09895753394224574
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/DismissWork.java",
+      "score": 0.09842213203299077
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/futsch1/medtimer/GenerateTestData.java",
+      "score": 0.09558371986251796
+    }
+  ]
+}

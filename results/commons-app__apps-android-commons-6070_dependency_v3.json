@@ -1,0 +1,96 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6070",
+  "base_sha": "c963cd9ea49b1fa9dd2baf20e11d1b46e75abc62",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 1179,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.015977101223002863,
+      "tfidf_score": 0.18855120140742887,
+      "dependency_support": 0.10280942444254661,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java",
+      "score": 0.015888300433317286,
+      "tfidf_score": 0.19601585700658405,
+      "dependency_support": 0.025194399088898943,
+      "graph_degree": 66
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/NearbyController.java",
+      "score": 0.015576923076923078,
+      "tfidf_score": 0.18776744070569923,
+      "dependency_support": 0.03329030732519757,
+      "graph_degree": 14
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/NearbyPlaces.java",
+      "score": 0.015220017256255394,
+      "tfidf_score": 0.22045469381376556,
+      "dependency_support": 0.007313005078388506,
+      "graph_degree": 5
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.01516610495907559,
+      "tfidf_score": 0.1747493504026373,
+      "dependency_support": 0.09528382742989083,
+      "graph_degree": 0
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/presenter/NearbyParentFragmentPresenter.kt",
+      "score": 0.014458229942100912,
+      "tfidf_score": 0.1829170701543226,
+      "dependency_support": 0.008932392993700022,
+      "graph_degree": 18
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/mwapi/OkHttpJsonApiClient.kt",
+      "score": 0.014297908664105848,
+      "tfidf_score": 0.16286590420432753,
+      "dependency_support": 0.026129955068544285,
+      "graph_degree": 37
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/Place.java",
+      "score": 0.014236111111111113,
+      "tfidf_score": 0.1620173881599705,
+      "dependency_support": 0.047616628245062215,
+      "graph_degree": 46
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/ContributionsFragment.java",
+      "score": 0.013792005096352923,
+      "tfidf_score": 0.1685672006323341,
+      "dependency_support": 0.008932392993700022,
+      "graph_degree": 44
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/explore/map/ExploreMapFragment.java",
+      "score": 0.013442389758179232,
+      "tfidf_score": 0.1602220124741277,
+      "dependency_support": 0.017264814861431645,
+      "graph_degree": 26
+    }
+  ]
+}

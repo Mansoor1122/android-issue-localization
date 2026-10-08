@@ -1,0 +1,96 @@
+{
+  "instance_id": "openhab__openhab-android-3770",
+  "base_sha": "f23ebe4491b61674b2f48e9739c9f1ee0042ab1c",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 680,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "mobile/src/main/res/values/strings.xml",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.20026652194624822,
+      "dependency_support": 0.10509354477553347,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/res/values-is/strings.xml",
+      "score": 0.016129032258064516,
+      "tfidf_score": 0.19126223499449885,
+      "dependency_support": 0.1003683794072079,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/res/values-da/strings.xml",
+      "score": 0.015873015873015872,
+      "tfidf_score": 0.1894538888990451,
+      "dependency_support": 0.09941941649765461,
+      "graph_degree": 0
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/res/values-zh/strings.xml",
+      "score": 0.015625,
+      "tfidf_score": 0.1893171639129246,
+      "dependency_support": 0.09934766754375485,
+      "graph_degree": 0
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/res/values-hi/strings.xml",
+      "score": 0.015384615384615387,
+      "tfidf_score": 0.18928983972860672,
+      "dependency_support": 0.09933332867493064,
+      "graph_degree": 0
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/res/values-sk/strings.xml",
+      "score": 0.015151515151515154,
+      "tfidf_score": 0.18928983972860672,
+      "dependency_support": 0.09933332867493064,
+      "graph_degree": 0
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/res/values-ko/strings.xml",
+      "score": 0.014925373134328358,
+      "tfidf_score": 0.18922508680900046,
+      "dependency_support": 0.0992993483881116,
+      "graph_degree": 0
+    },
+    {
+      "rank": 8,
+      "path": "mobile/src/main/res/values-th/strings.xml",
+      "score": 0.014705882352941176,
+      "tfidf_score": 0.18922508680900046,
+      "dependency_support": 0.0992993483881116,
+      "graph_degree": 0
+    },
+    {
+      "rank": 9,
+      "path": "mobile/src/main/res/values-fa/strings.xml",
+      "score": 0.014492753623188406,
+      "tfidf_score": 0.1891859545319669,
+      "dependency_support": 0.0992788130052197,
+      "graph_degree": 0
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/res/values-af/strings.xml",
+      "score": 0.014285714285714285,
+      "tfidf_score": 0.1890868853817518,
+      "dependency_support": 0.09922682464454502,
+      "graph_degree": 0
+    }
+  ]
+}

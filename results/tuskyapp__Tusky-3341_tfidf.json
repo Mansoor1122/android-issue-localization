@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-3341",
+  "base_sha": "52c98749e6a0dff52c4c06ec82baa7e95ce49b42",
+  "method": "tfidf",
+  "indexed_files": 640,
+  "skipped_files": [],
+  "query": "Link lookup ends up with wrong link\nI have been using Tusky for a good week now and noticed that every now and then clicking on links in posts take me to the wrong internet address.\r\n\r\nE.g.:\r\n1. Click a link in a post, which should go to www.patrion.com/…\r\n2. Land on the Mastodon profile of the European Commision?\r\nA bit like chat roulette I guess :-)\r\n\r\nHere's a link to a raw video: https://cloud.zell-mbc.com/s/QbQ2xFzY2TajKgZ\r\nMost links work, some don't.\r\n\r\nEdit: Forgot to mention that when I click that same link from a different client (browser, FediLab, etc.) the correct page opens.\r\n\r\n* * * *\r\n- Tusky Version: 19.0\r\n- Android Version: 10\r\n- Android Device: Stoneage Samsung tablet, SM-T830\r\n- Mastodon instance (if applicable): Doesn't matter\r\n\r\n- [x ] I searched or browsed the repo’s other issues to ensure this is not a duplicate.\r\n \r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.18862846292207666
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/login/LoginActivity.kt",
+      "score": 0.1638045995125639
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/fragment/ViewImageFragment.kt",
+      "score": 0.16069337177961043
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/interfaces/LinkListener.kt",
+      "score": 0.16010501545095115
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt",
+      "score": 0.15584258773681517
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/fragment/SFragment.kt",
+      "score": 0.14733837419352713
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/LinkHelper.kt",
+      "score": 0.14449573156194864
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/compose/ComposeTokenizer.kt",
+      "score": 0.14436265303576742
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/view/MediaPreviewImageView.kt",
+      "score": 0.1387270334135836
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/LocaleUtils.kt",
+      "score": 0.1380751875614322
+    }
+  ]
+}

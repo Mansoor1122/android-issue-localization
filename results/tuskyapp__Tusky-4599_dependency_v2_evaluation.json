@@ -1,0 +1,57 @@
+{
+  "instance_id": "tuskyapp__Tusky-4599",
+  "method": "dependency_v2",
+  "base_sha": "9abf02a6c52aa1d915c7d416fa67991bda731df8",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/compose/MediaUploader.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt",
+    "app/src/main/java/com/keylesspalace/tusky/di/NetworkModule.kt",
+    "app/src/main/java/com/keylesspalace/tusky/network/ApiFactory.kt",
+    "app/src/main/java/com/keylesspalace/tusky/network/FailingCall.kt",
+    "app/src/main/java/com/keylesspalace/tusky/network/InstanceSwitchAuthInterceptor.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/compose/MediaUploader.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt",
+    "app/src/main/java/com/keylesspalace/tusky/di/NetworkModule.kt",
+    "app/src/main/java/com/keylesspalace/tusky/network/InstanceSwitchAuthInterceptor.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/compose/MediaUploader.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt",
+    "app/src/main/java/com/keylesspalace/tusky/di/NetworkModule.kt",
+    "app/src/main/java/com/keylesspalace/tusky/network/InstanceSwitchAuthInterceptor.kt"
+  ],
+  "unavailable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/network/ApiFactory.kt",
+    "app/src/main/java/com/keylesspalace/tusky/network/FailingCall.kt"
+  ],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.14285714285714285,
+      "existing_target_recall": 0.2,
+      "indexable_target_recall": 0.2,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt"
+      ],
+      "precision": 0.1,
+      "all_target_recall": 0.14285714285714285,
+      "existing_target_recall": 0.2,
+      "indexable_target_recall": 0.2,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-6659",
+  "method": "dependency_v3",
+  "base_sha": "574ec1434c885429e0d9b4061dff765eb7284701",
+  "all_targets": [
+    "app/src/main/java/de/danoeh/antennapod/fragment/CompletedDownloadsFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/fragment/MenuItemToSortOrderConverter.java",
+    "app/src/main/res/menu/sort_menu.xml",
+    "core/src/main/java/de/danoeh/antennapod/core/util/FeedItemPermutors.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/SortOrder.java",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/mapper/FeedItemSortQuery.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "existing_targets": [
+    "app/src/main/java/de/danoeh/antennapod/fragment/CompletedDownloadsFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/fragment/MenuItemToSortOrderConverter.java",
+    "app/src/main/res/menu/sort_menu.xml",
+    "core/src/main/java/de/danoeh/antennapod/core/util/FeedItemPermutors.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/SortOrder.java",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/mapper/FeedItemSortQuery.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/de/danoeh/antennapod/fragment/CompletedDownloadsFragment.java",
+    "app/src/main/java/de/danoeh/antennapod/fragment/MenuItemToSortOrderConverter.java",
+    "app/src/main/res/menu/sort_menu.xml",
+    "core/src/main/java/de/danoeh/antennapod/core/util/FeedItemPermutors.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/SortOrder.java",
+    "storage/database/src/main/java/de/danoeh/antennapod/storage/database/mapper/FeedItemSortQuery.java",
+    "ui/i18n/src/main/res/values/strings.xml"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "ui/i18n/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.14285714285714285,
+      "existing_target_recall": 0.14285714285714285,
+      "indexable_target_recall": 0.14285714285714285,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "ui/i18n/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.1,
+      "all_target_recall": 0.14285714285714285,
+      "existing_target_recall": 0.14285714285714285,
+      "indexable_target_recall": 0.14285714285714285,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

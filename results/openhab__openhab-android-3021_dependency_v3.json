@@ -1,0 +1,96 @@
+{
+  "instance_id": "openhab__openhab-android-3021",
+  "base_sha": "2b164c8b66bc0316a99181325ea9eaa9d36158a3",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 626,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": ".idea/scopes/Kotlin_files.xml",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.21469235423392122,
+      "dependency_support": 0.18762977992282662,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/java/org/openhab/habdroid/model/WebViewUi.kt",
+      "score": 0.015625,
+      "tfidf_score": 0.11136036217332035,
+      "dependency_support": 0.08640056462607326,
+      "graph_degree": 7
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/HabpanelWebViewFragment.kt",
+      "score": 0.014685314685314687,
+      "tfidf_score": 0.1063749583882054,
+      "dependency_support": 0.013903296530825306,
+      "graph_degree": 3
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/FrontailWebViewFragment.kt",
+      "score": 0.014537701104865285,
+      "tfidf_score": 0.09698702017887179,
+      "dependency_support": 0.013903296530825306,
+      "graph_degree": 3
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/Oh3UiWebViewFragment.kt",
+      "score": 0.014125848468170978,
+      "tfidf_score": 0.09322538567235122,
+      "dependency_support": 0.013903296530825306,
+      "graph_degree": 3
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/ContentController.kt",
+      "score": 0.01388773388773389,
+      "tfidf_score": 0.08219985575536266,
+      "dependency_support": 0.04904824357775543,
+      "graph_degree": 28
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/ContentControllerOnePane.kt",
+      "score": 0.012903225806451613,
+      "tfidf_score": 0.12064211913538533,
+      "dependency_support": 0.0,
+      "graph_degree": 3
+    },
+    {
+      "rank": 8,
+      "path": "mobile/src/main/java/org/openhab/habdroid/model/ParsedState.kt",
+      "score": 0.012698412698412698,
+      "tfidf_score": 0.11384505977011837,
+      "dependency_support": 0.0,
+      "graph_degree": 3
+    },
+    {
+      "rank": 9,
+      "path": "mobile/src/main/java/org/openhab/habdroid/util/TaskerIntent.kt",
+      "score": 0.01230769230769231,
+      "tfidf_score": 0.10692578329609805,
+      "dependency_support": 0.0,
+      "graph_degree": 2
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/java/org/openhab/habdroid/core/connection/ConnectionExceptions.kt",
+      "score": 0.011764705882352941,
+      "tfidf_score": 0.09361376554710756,
+      "dependency_support": 0.0,
+      "graph_degree": 5
+    }
+  ]
+}

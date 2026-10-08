@@ -1,0 +1,60 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6167",
+  "base_sha": "36f844a709dc40944644723917c0b1622380edf6",
+  "method": "tfidf",
+  "indexed_files": 1180,
+  "skipped_files": [],
+  "query": "[Bug]: Category \"Amavenita (ship, 2014)\" not found\n### Summary\n\nI serached for a category that exists, but it doesn't show up.\n\n### Steps to reproduce\n\n1. When uploading an image, search for category: Amavenita\r\n\n\n### Expected behaviour\n\n[Category:Amavenita (ship, 2014)](https://commons.wikimedia.org/wiki/Category:Amavenita_(ship,_2014)) should be suggested.\n\n### Actual behaviour\n\n\"No Categories found\"\n\n### Device name\n\nSamsung Galaxy S10\n\n### Android version\n\nAndroid 12\n\n### Commons app version\n\n3.1.1~1c9267ca0\n\n### Device logs\n\n_No response_\n\n### Screen-shots\n\n![Screenshot_20220318-180530_Commons](https://user-images.githubusercontent.com/5566159/159050916-23c318f1-f0bb-4c53-b8b9-01a1b24a1e4f.jpg)\r\n\n\n### Would you like to work on the issue?\n\n_No response_\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.1852078394816606
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/categories/CategoriesContract.kt",
+      "score": 0.16624112937941754
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadContract.kt",
+      "score": 0.15405934962967133
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.kt",
+      "score": 0.15402184942547723
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/res/values-el/strings.xml",
+      "score": 0.1492844217013036
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values-krc/strings.xml",
+      "score": 0.1482986832608717
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/res/values-iw/strings.xml",
+      "score": 0.14610315898308904
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/values-mk/strings.xml",
+      "score": 0.14519021606957724
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/res/values-zh-rTW/strings.xml",
+      "score": 0.14434821023746172
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.14405769560012766
+    }
+  ]
+}

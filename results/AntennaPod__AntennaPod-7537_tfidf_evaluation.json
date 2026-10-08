@@ -1,0 +1,60 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-7537",
+  "method": "tfidf",
+  "base_sha": "310ce203cea26cf14dc8514ab72d028e545640ab",
+  "all_targets": [
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/playback/TranscriptAdapter.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/TranscriptSegment.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/TranscriptType.java",
+    "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/episode/MediaDownloadedHandler.java",
+    "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/feed/FeedUpdateWorker.java",
+    "parser/transcript/src/main/java/de/danoeh/antennapod/parser/transcript/TranscriptParser.java",
+    "parser/transcript/src/main/java/de/danoeh/antennapod/parser/transcript/VttTranscriptParser.java"
+  ],
+  "existing_targets": [
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/playback/TranscriptAdapter.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/TranscriptSegment.java",
+    "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/episode/MediaDownloadedHandler.java",
+    "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/feed/FeedUpdateWorker.java",
+    "parser/transcript/src/main/java/de/danoeh/antennapod/parser/transcript/TranscriptParser.java"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/de/danoeh/antennapod/ui/screen/playback/TranscriptAdapter.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java",
+    "model/src/main/java/de/danoeh/antennapod/model/feed/TranscriptSegment.java",
+    "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/episode/MediaDownloadedHandler.java",
+    "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/feed/FeedUpdateWorker.java",
+    "parser/transcript/src/main/java/de/danoeh/antennapod/parser/transcript/TranscriptParser.java"
+  ],
+  "unavailable_targets": [
+    "model/src/main/java/de/danoeh/antennapod/model/feed/TranscriptType.java",
+    "parser/transcript/src/main/java/de/danoeh/antennapod/parser/transcript/VttTranscriptParser.java"
+  ],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.125,
+      "existing_target_recall": 0.16666666666666666,
+      "indexable_target_recall": 0.16666666666666666,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java"
+      ],
+      "precision": 0.1,
+      "all_target_recall": 0.125,
+      "existing_target_recall": 0.16666666666666666,
+      "indexable_target_recall": 0.16666666666666666,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "instance_id": "tuskyapp__Tusky-2945",
+  "method": "dependency_v2",
+  "base_sha": "8437fbd60513ec5279502e59ff0a02e3c5605611",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/util/LinkHelper.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/util/LinkHelper.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/util/LinkHelper.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.5,
+      "existing_target_recall": 0.5,
+      "indexable_target_recall": 0.5,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/com/keylesspalace/tusky/BottomSheetActivity.kt"
+      ],
+      "precision": 0.1,
+      "all_target_recall": 0.5,
+      "existing_target_recall": 0.5,
+      "indexable_target_recall": 0.5,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

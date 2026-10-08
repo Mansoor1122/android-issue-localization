@@ -1,0 +1,43 @@
+{
+  "instance_id": "tuskyapp__Tusky-4103",
+  "method": "tfidf",
+  "base_sha": "e9195846825a24985bd27c866eb4277ea82b7748",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt",
+    "app/src/main/java/com/keylesspalace/tusky/entity/Instance.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt",
+    "app/src/main/java/com/keylesspalace/tusky/entity/Instance.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt",
+    "app/src/main/java/com/keylesspalace/tusky/entity/Instance.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.5,
+      "existing_target_recall": 0.5,
+      "indexable_target_recall": 0.5,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt"
+      ],
+      "precision": 0.1,
+      "all_target_recall": 0.5,
+      "existing_target_recall": 0.5,
+      "indexable_target_recall": 0.5,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

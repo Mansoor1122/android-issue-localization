@@ -1,0 +1,96 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6167",
+  "base_sha": "36f844a709dc40944644723917c0b1622380edf6",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 1180,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.1852078394816606,
+      "dependency_support": 0.1205142676818221,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values-el/strings.xml",
+      "score": 0.015533498759305212,
+      "tfidf_score": 0.1492844217013036,
+      "dependency_support": 0.09713899156746214,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values-krc/strings.xml",
+      "score": 0.015295815295815297,
+      "tfidf_score": 0.1482986832608717,
+      "dependency_support": 0.09649757408423387,
+      "graph_degree": 0
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.kt",
+      "score": 0.015131578947368421,
+      "tfidf_score": 0.15402184942547723,
+      "dependency_support": 0.016707670827288856,
+      "graph_degree": 31
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/res/values-iw/strings.xml",
+      "score": 0.015065298507462688,
+      "tfidf_score": 0.14610315898308904,
+      "dependency_support": 0.09506895204936132,
+      "graph_degree": 0
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values-mk/strings.xml",
+      "score": 0.014841628959276019,
+      "tfidf_score": 0.14519021606957724,
+      "dependency_support": 0.09447490242940408,
+      "graph_degree": 0
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadContract.kt",
+      "score": 0.014826072272880783,
+      "tfidf_score": 0.15405934962967133,
+      "dependency_support": 0.0032329556024751705,
+      "graph_degree": 6
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/values-zh-rTW/strings.xml",
+      "score": 0.014624505928853756,
+      "tfidf_score": 0.14434821023746172,
+      "dependency_support": 0.09392701138696646,
+      "graph_degree": 0
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.0144136460554371,
+      "tfidf_score": 0.14405769560012766,
+      "dependency_support": 0.09373797425513042,
+      "graph_degree": 0
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/categories/CategoriesContract.kt",
+      "score": 0.012903225806451613,
+      "tfidf_score": 0.16624112937941754,
+      "dependency_support": 0.0,
+      "graph_degree": 6
+    }
+  ]
+}

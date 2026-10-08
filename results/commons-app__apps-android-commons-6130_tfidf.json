@@ -1,0 +1,60 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6130",
+  "base_sha": "62136b5b09695e50c9dd5f86dfbb7e49d7282243",
+  "method": "tfidf",
+  "indexed_files": 1180,
+  "skipped_files": [],
+  "query": "If depicted Wikidata item has no associated Commons category property, then suggest categories from its P18\n### What is the user problem or growth opportunity you want to see solved?\n\nRecently, the objects that already have an image are also displayed for searched images. \r\n\r\nI would find it helpful if all categories of an image already available via Wikidata were offered for selection.\n\n### How do you know that this problem exists today? Why is this important?\n\nIn my opinion, this would simplify the assignment and help to ensure that the most suitable categories are selected when uploading.\n\n### Who will benefit from it?\n\nall users\n\n### Anything else you would like to add?\n\n_No response_\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.2369302576033942
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.172234768159794
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/depicts/DepictsContract.kt",
+      "score": 0.17223163307566774
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/res/values/error.xml",
+      "score": 0.1667974602616259
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/category/CategoriesModel.kt",
+      "score": 0.1600741043089889
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values-krc/strings.xml",
+      "score": 0.15431285903472888
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.kt",
+      "score": 0.15302652279257353
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/Place.java",
+      "score": 0.1522393760243381
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/profile/achievements/AchievementsFragment.kt",
+      "score": 0.1521371721424259
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/category/CategoryDetailsActivity.kt",
+      "score": 0.15211897794039606
+    }
+  ]
+}

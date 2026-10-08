@@ -1,0 +1,58 @@
+{
+  "instance_id": "commons-app__apps-android-commons-5947",
+  "method": "dependency_v3",
+  "base_sha": "fe347c21fdede145e6a945750aa43a6de7ec24eb",
+  "all_targets": [
+    "app/build.gradle",
+    "app/src/main/java/fr/free/nrw/commons/category/CategoryClient.kt",
+    "app/src/main/java/fr/free/nrw/commons/recentlanguages/RecentLanguagesDao.kt",
+    "app/src/main/java/fr/free/nrw/commons/repository/UploadRepository.kt",
+    "app/src/main/java/fr/free/nrw/commons/settings/SettingsFragment.kt",
+    "app/src/main/java/fr/free/nrw/commons/utils/ImageUtilsWrapper.kt",
+    "app/src/main/java/fr/free/nrw/commons/utils/MediaDataExtractorUtil.kt"
+  ],
+  "existing_targets": [
+    "app/build.gradle",
+    "app/src/main/java/fr/free/nrw/commons/category/CategoryClient.kt",
+    "app/src/main/java/fr/free/nrw/commons/recentlanguages/RecentLanguagesDao.kt",
+    "app/src/main/java/fr/free/nrw/commons/repository/UploadRepository.kt",
+    "app/src/main/java/fr/free/nrw/commons/settings/SettingsFragment.kt",
+    "app/src/main/java/fr/free/nrw/commons/utils/ImageUtilsWrapper.kt",
+    "app/src/main/java/fr/free/nrw/commons/utils/MediaDataExtractorUtil.kt"
+  ],
+  "indexable_targets": [
+    "app/build.gradle",
+    "app/src/main/java/fr/free/nrw/commons/category/CategoryClient.kt",
+    "app/src/main/java/fr/free/nrw/commons/recentlanguages/RecentLanguagesDao.kt",
+    "app/src/main/java/fr/free/nrw/commons/repository/UploadRepository.kt",
+    "app/src/main/java/fr/free/nrw/commons/settings/SettingsFragment.kt",
+    "app/src/main/java/fr/free/nrw/commons/utils/ImageUtilsWrapper.kt",
+    "app/src/main/java/fr/free/nrw/commons/utils/MediaDataExtractorUtil.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/build.gradle"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.14285714285714285,
+      "existing_target_recall": 0.14285714285714285,
+      "indexable_target_recall": 0.14285714285714285,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/build.gradle"
+      ],
+      "precision": 0.1,
+      "all_target_recall": 0.14285714285714285,
+      "existing_target_recall": 0.14285714285714285,
+      "indexable_target_recall": 0.14285714285714285,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

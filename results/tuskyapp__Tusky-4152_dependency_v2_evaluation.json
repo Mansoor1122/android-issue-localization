@@ -1,0 +1,36 @@
+{
+  "instance_id": "tuskyapp__Tusky-4152",
+  "method": "dependency_v2",
+  "base_sha": "a7e0fa26b7ba60ce996cf6e19c9b496750b1b1d4",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/compose/ComposeActivity.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/compose/ComposeActivity.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/components/compose/ComposeActivity.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-4993",
+  "base_sha": "271514f2ce5f57fc01aa1e9987e18fbeb0dad684",
+  "method": "tfidf",
+  "indexed_files": 753,
+  "skipped_files": [],
+  "query": "Trending posts no longer load\nTrending posts stopped loading in the beta.  They still load fine in browser for my instance ![Screenshot_20250315-204814_Tusky.jpg](https://github.com/user-attachments/assets/26a06e98-6795-4d44-881d-1b899fdc6098)\n\n\nApp details:\n\nTusky 28.0 beta 1\n\nDevice:\n\nasus ASUS_AI2401_H\nAndroid version: 15\nSDK version: 35\n\nAccount:\n\n@vwbusguy@mastodon.online\nVersion: 4.4.0-nightly.2025-03-14-security\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.123361667522988
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values-ja/strings.xml",
+      "score": 0.11574535742978485
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/trending/TrendingActivity.kt",
+      "score": 0.11295189474301011
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/res/values-zh-rCN/strings.xml",
+      "score": 0.11127065739020472
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/viewdata/TrendingViewData.kt",
+      "score": 0.10969586297752588
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values-el/strings.xml",
+      "score": 0.10831798593723604
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/res/values-ru/strings.xml",
+      "score": 0.10814216290957797
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/values-fa/strings.xml",
+      "score": 0.10798839136342817
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/TrendingTagsResult.kt",
+      "score": 0.1078032380843405
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/ViewDataUtils.kt",
+      "score": 0.10555679688601108
+    }
+  ]
+}

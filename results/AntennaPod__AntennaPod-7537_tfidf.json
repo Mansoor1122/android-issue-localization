@@ -1,0 +1,60 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-7537",
+  "base_sha": "310ce203cea26cf14dc8514ab72d028e545640ab",
+  "method": "tfidf",
+  "indexed_files": 932,
+  "skipped_files": [],
+  "query": "Support WebVTT transcript format\n### Checklist\n\n- [X] I have used the search function for [**OPEN**](https://github.com/AntennaPod/AntennaPod/issues) issues to see if someone else has already submitted the same feature request.\n- [X] I have **also** used the search function for [**CLOSED**](https://github.com/AntennaPod/AntennaPod/issues?q=is%3Aissue+is%3Aclosed) issues to see if the feature was already implemented and is just waiting to be released, or if the feature was rejected.\n- [X] I will describe the problem with as much detail as possible.\n- [X] This request contains only one single feature, **not** a list of multiple (related) features.\n\n### App version\n\n3.5.0\n\n### Where did you get the app from\n\nGoogle Play\n\n### Feature or improvement you want\n\nWe currently support SRT, JSON transcript.   We should add support for WebVTT as well.  Detailed reasons why certain podcast hosts are only supporting WebVTT here https://github.com/jamescridland/podnews/issues/2\n\n### Why should this be added?\n\nWider support of transcript\n\n### Screenshots / Drawings / Technical details\n\n```\r\ncurl https://podnews.net/rss > ~/Downloads/podnews.rss\r\n```\r\n\r\n```\r\n<podcast:transcript url=\"https://podnews.net/audio/podnews240927.mp3.vtt\" type=\"text/vtt\" rel=\"captions\"/>\r\n```\r\n\r\n```\r\ncurl https://podnews.net/audio/podnews240926.mp3.vtt | less\r\n\r\nWEBVTT\r\n\r\n00:00:00.000 --> 00:00:05.900\r\n<v James Cridland>Paid New York Times podcasts go to Apple and Spotify - from the Pacific Island of Niue,\r\n\r\n00:00:05.900 --> 00:00:13.100\r\nthe latest from Podnews.net with Podpage: making SEO-optimized podcast websites.\r\n\r\n00:00:13.100 --> 00:00:16.900\r\n<v Sabrina Tavernise>From the New York Times, I'm Sabrina Tavernise, and this is The Daily.\r\n\r\n00:00:16.900 --> 00:00:21.640\r\n<v James Cridland>The New York Times is to make its premium paid podcasts available for New York Times subscribers\r\n\r\n```\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "ui/i18n/src/main/res/values/strings.xml",
+      "score": 0.22672314302247615
+    },
+    {
+      "rank": 2,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/FeedDatabaseWriter.java",
+      "score": 0.20271625573784915
+    },
+    {
+      "rank": 3,
+      "path": "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java",
+      "score": 0.19297247955280852
+    },
+    {
+      "rank": 4,
+      "path": "playback/base/src/main/java/de/danoeh/antennapod/playback/base/PlaybackServiceMediaPlayer.java",
+      "score": 0.18854315086329207
+    },
+    {
+      "rank": 5,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBWriter.java",
+      "score": 0.17072236803126378
+    },
+    {
+      "rank": 6,
+      "path": "playback/cast/src/play/java/de/danoeh/antennapod/playback/cast/CastUtils.java",
+      "score": 0.16333071367659055
+    },
+    {
+      "rank": 7,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBReader.java",
+      "score": 0.1613808197551132
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/de/danoeh/antennapod/ui/episodeslist/FeedItemMenuHandler.java",
+      "score": 0.15879210153879955
+    },
+    {
+      "rank": 9,
+      "path": "net/download/service-interface/src/main/java/de/danoeh/antennapod/net/download/serviceinterface/AutoDownloadManager.java",
+      "score": 0.1574653154322115
+    },
+    {
+      "rank": 10,
+      "path": "net/download/service/src/main/java/de/danoeh/antennapod/net/download/service/episode/autodownload/AutomaticDownloadAlgorithm.java",
+      "score": 0.1531079628458968
+    }
+  ]
+}

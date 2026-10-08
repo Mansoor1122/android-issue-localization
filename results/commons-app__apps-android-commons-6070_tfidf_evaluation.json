@@ -1,0 +1,62 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6070",
+  "method": "tfidf",
+  "base_sha": "c963cd9ea49b1fa9dd2baf20e11d1b46e75abc62",
+  "all_targets": [
+    "app/src/main/java/fr/free/nrw/commons/mwapi/OkHttpJsonApiClient.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/NearbyController.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/NearbyPlaces.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/model/NearbyQueryParams.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/fr/free/nrw/commons/mwapi/OkHttpJsonApiClient.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/NearbyController.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/NearbyPlaces.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/fr/free/nrw/commons/mwapi/OkHttpJsonApiClient.kt",
+    "app/src/main/java/fr/free/nrw/commons/nearby/NearbyController.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/NearbyPlaces.java",
+    "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java"
+  ],
+  "unavailable_targets": [
+    "app/src/main/java/fr/free/nrw/commons/nearby/model/NearbyQueryParams.kt"
+  ],
+  "excluded_paths": [
+    "app/src/main/resources/queries/radius_query_for_item_count.rq",
+    "app/src/main/resources/queries/radius_query_for_nearby.rq",
+    "app/src/main/resources/queries/radius_query_for_nearby_monuments.rq",
+    "app/src/main/resources/queries/rectangle_query_for_item_count.rq",
+    "app/src/main/resources/queries/rectangle_query_for_nearby.rq"
+  ],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/fr/free/nrw/commons/nearby/NearbyController.java",
+        "app/src/main/java/fr/free/nrw/commons/nearby/NearbyPlaces.java",
+        "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java"
+      ],
+      "precision": 0.6,
+      "all_target_recall": 0.6,
+      "existing_target_recall": 0.75,
+      "indexable_target_recall": 0.75,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/fr/free/nrw/commons/nearby/NearbyController.java",
+        "app/src/main/java/fr/free/nrw/commons/nearby/NearbyPlaces.java",
+        "app/src/main/java/fr/free/nrw/commons/nearby/fragments/NearbyParentFragment.java"
+      ],
+      "precision": 0.3,
+      "all_target_recall": 0.6,
+      "existing_target_recall": 0.75,
+      "indexable_target_recall": 0.75,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

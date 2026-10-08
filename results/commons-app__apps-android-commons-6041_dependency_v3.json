@@ -1,0 +1,96 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6041",
+  "base_sha": "5500b039762b63d18b794bb0bc68d2a84a495166",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 1179,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.16061972105286798,
+      "dependency_support": 0.12408577789756048,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.015873015873015872,
+      "tfidf_score": 0.1323303537375453,
+      "dependency_support": 0.10223100112082695,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values-ar/strings.xml",
+      "score": 0.015384615384615387,
+      "tfidf_score": 0.1258747035503991,
+      "dependency_support": 0.09724372826257749,
+      "graph_degree": 0
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/customselector/helper/OnSwipeTouchListener.kt",
+      "score": 0.015342250196695516,
+      "tfidf_score": 0.13591961196219762,
+      "dependency_support": 0.004685723775325613,
+      "graph_degree": 1
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/res/values-iw/strings.xml",
+      "score": 0.015151515151515154,
+      "tfidf_score": 0.12321000009872486,
+      "dependency_support": 0.09518512799543795,
+      "graph_degree": 0
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values-uk/strings.xml",
+      "score": 0.014749780509218612,
+      "tfidf_score": 0.12250896281913826,
+      "dependency_support": 0.09464354595555842,
+      "graph_degree": 0
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/ZoomableActivity.kt",
+      "score": 0.014654377880184331,
+      "tfidf_score": 0.1213063508929959,
+      "dependency_support": 0.1050038604930245,
+      "graph_degree": 20
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/utils/NearbyFABUtils.kt",
+      "score": 0.0125,
+      "tfidf_score": 0.1285102947718425,
+      "dependency_support": 0.0,
+      "graph_degree": 1
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/categories/CategoriesContract.kt",
+      "score": 0.011940298507462687,
+      "tfidf_score": 0.122806974233546,
+      "dependency_support": 0.0,
+      "graph_degree": 6
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/categories/CategoriesPresenter.kt",
+      "score": 0.0117665418227216,
+      "tfidf_score": 0.0972431234258355,
+      "dependency_support": 0.015812295473562922,
+      "graph_degree": 8
+    }
+  ]
+}

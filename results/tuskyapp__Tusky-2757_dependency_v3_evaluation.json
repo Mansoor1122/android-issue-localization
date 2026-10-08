@@ -1,0 +1,45 @@
+{
+  "instance_id": "tuskyapp__Tusky-2757",
+  "method": "dependency_v3",
+  "base_sha": "8e9b356074e961c483bb5f64833efcd03e2a3ab7",
+  "all_targets": [
+    "app/build.gradle",
+    "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationHelper.java",
+    "gradle/libs.versions.toml"
+  ],
+  "existing_targets": [
+    "app/build.gradle",
+    "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationHelper.java",
+    "gradle/libs.versions.toml"
+  ],
+  "indexable_targets": [
+    "app/build.gradle",
+    "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+    "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationHelper.java",
+    "gradle/libs.versions.toml"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

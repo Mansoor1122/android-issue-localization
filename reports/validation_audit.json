@@ -1,0 +1,152 @@
+{
+  "verified_pairs": 15,
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "v3_sha256": "db2955d81e9ad07ce4dbe3acb0bd3874c4d108bb34386b41e6e27a812eb0ffbe",
+  "summary": {
+    "5": {
+      "tfidf": {
+        "precision": 0.29333333333333333,
+        "indexable_target_recall": 0.13502407226192392,
+        "all_target_recall": 0.11995952632598594
+      },
+      "dependency_v3": {
+        "precision": 0.3066666666666667,
+        "indexable_target_recall": 0.1378893712141794,
+        "all_target_recall": 0.11936210787142464
+      },
+      "outcomes": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 8
+      }
+    },
+    "10": {
+      "tfidf": {
+        "precision": 0.20666666666666667,
+        "indexable_target_recall": 0.17559939066332927,
+        "all_target_recall": 0.15392714600789134
+      },
+      "dependency_v3": {
+        "precision": 0.24666666666666667,
+        "indexable_target_recall": 0.20433156535138633,
+        "all_target_recall": 0.17714968169066034
+      },
+      "outcomes": {
+        "wins": 5,
+        "losses": 0,
+        "ties": 10
+      }
+    }
+  },
+  "improved_cases": [
+    {
+      "instance_id": "Futsch1__medTimer-29",
+      "issue": "Reminder: Every second day\nI would need the reminder to be set only for every second day. \n\nCould this be included in a future release?:)\n\nThe best, Michael\n",
+      "baseline_recall": 0.36363636363636365,
+      "v3_recall": 0.45454545454545453,
+      "gained_targets": [
+        {
+          "rank": 10,
+          "path": "app/src/main/java/com/futsch1/medtimer/database/Reminder.java",
+          "score": 0.01370091896407686,
+          "tfidf_score": 0.07089587176569008,
+          "dependency_support": 0.09585669084102713,
+          "graph_degree": 13,
+          "baseline_saved_rank": null
+        }
+      ]
+    },
+    {
+      "instance_id": "Futsch1__medTimer-54",
+      "issue": "Export/import med settings/data plan\nUnfortunately the app (1.4.2) crashed at one point so bad, that all reinstalling didn't help. Not sure if it was a Xiaomi issue. First notifications stopped. Then after checking and editing some energy saving mode, the app didn't start any more at all. \n\nWhat helped was a simple uninstall and install.\n\nTo prevent in the future a full new creation and configuration of the medication plan, a Export/import function would really be helpful.\n\nThanks, Michael \n",
+      "baseline_recall": 0.11764705882352941,
+      "v3_recall": 0.17647058823529413,
+      "gained_targets": [
+        {
+          "rank": 10,
+          "path": "app/src/main/java/com/futsch1/medtimer/helpers/PathHelper.java",
+          "score": 0.013136392206159649,
+          "tfidf_score": 0.0853225319192237,
+          "dependency_support": 0.00837998498180811,
+          "graph_degree": 2,
+          "baseline_saved_rank": null
+        }
+      ]
+    },
+    {
+      "instance_id": "Futsch1__medTimer-584",
+      "issue": "Simplify the content of notifications\n**Is your feature request related to a problem? Please describe.**\nI liked it at first, `It is 12:33 - time to take 1x of Vitamin D` is quite informative, but with multiple notifcations it's a bit unreadable and most of the notification text seems redundant.\n\n**Describe the solution you'd like**\nI'd like to keep it simple; either add a new setting or cut out unwanted text. You may prefer the former, as it's possible that not all launchers will display the time label in the notification line.\n\nJust `1x of Vitamin D` with the current notification title looks more appealing to me.\nChange police notification color when medicine stock is low\nI'd like to know if it could be possible to change police notification color when medicine stock is low?\nBy doing so, it will make more obvious to the app user that he/she has to worry about the medicine stock each time a notification reminders pop, until a refill above minimal stock level is set.\n\nI don't know if Andro\u00efd notification can have a different police colour and if yes, if it can be supported in all Andro\u00efd version, so maybe this feature request can't be achieved. \n\nWhat do you think?\n",
+      "baseline_recall": 0.15,
+      "v3_recall": 0.2,
+      "gained_targets": [
+        {
+          "rank": 8,
+          "path": "app/src/main/java/com/futsch1/medtimer/helpers/MedicineHelper.kt",
+          "score": 0.01358858858858859,
+          "tfidf_score": 0.1442675157860116,
+          "dependency_support": 0.021361097236206158,
+          "graph_degree": 10,
+          "baseline_saved_rank": null
+        }
+      ]
+    },
+    {
+      "instance_id": "Futsch1__medTimer-70",
+      "issue": "Weekend notification delay\nIt should be possible to configure an \"earliest notification time\" for weekends or configurable days. This setting will result in all earlier reminders for that day to be scheduled at that time (like a \"do not disturb\" setting).\n",
+      "baseline_recall": 0.2,
+      "v3_recall": 0.4,
+      "gained_targets": [
+        {
+          "rank": 3,
+          "path": "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+          "score": 0.014392605633802819,
+          "tfidf_score": 0.09323634552939786,
+          "dependency_support": 0.07497013701896449,
+          "graph_degree": 13,
+          "baseline_saved_rank": null
+        },
+        {
+          "rank": 6,
+          "path": "app/src/main/java/com/futsch1/medtimer/medicine/EditMedicine.java",
+          "score": 0.01347747747747748,
+          "tfidf_score": 0.08047569981862542,
+          "dependency_support": 0.014205913365032727,
+          "graph_degree": 12,
+          "baseline_saved_rank": null
+        },
+        {
+          "rank": 7,
+          "path": "app/src/main/java/com/futsch1/medtimer/helpers/TimeHelper.java",
+          "score": 0.013304093567251462,
+          "tfidf_score": 0.0722305401315925,
+          "dependency_support": 0.025345479143433613,
+          "graph_degree": 3,
+          "baseline_saved_rank": null
+        }
+      ]
+    },
+    {
+      "instance_id": "openhab__openhab-android-3021",
+      "issue": "Split PreferencesActivity.kt in smaller files\nThe file has grown to big and should be split into multiple smaller files:\r\n* One \"main\" file\r\n* One file per fragment\n",
+      "baseline_recall": 0.0,
+      "v3_recall": 0.03125,
+      "gained_targets": [
+        {
+          "rank": 6,
+          "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/ContentController.kt",
+          "score": 0.01388773388773389,
+          "tfidf_score": 0.08219985575536266,
+          "dependency_support": 0.04904824357775543,
+          "graph_degree": 28,
+          "baseline_saved_rank": null
+        }
+      ]
+    }
+  ]
+}

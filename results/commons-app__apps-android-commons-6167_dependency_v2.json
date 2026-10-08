@@ -1,0 +1,96 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6167",
+  "base_sha": "36f844a709dc40944644723917c0b1622380edf6",
+  "method": "dependency_v2",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 1180,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.kt",
+      "score": 0.014909638554216868,
+      "tfidf_score": 0.15402184942547723,
+      "dependency_support": 0.011138447218192571,
+      "graph_degree": 43
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadContract.kt",
+      "score": 0.014393327952649988,
+      "tfidf_score": 0.15405934962967133,
+      "dependency_support": 0.0023307354343425645,
+      "graph_degree": 9
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/feedback/model/Feedback.kt",
+      "score": 0.013405270803071178,
+      "tfidf_score": 0.14039355230926337,
+      "dependency_support": 0.22727139008276964,
+      "graph_degree": 36
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.013114754098360657,
+      "tfidf_score": 0.1852078394816606,
+      "dependency_support": 0.0,
+      "graph_degree": 27
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/categories/CategoriesContract.kt",
+      "score": 0.012903225806451613,
+      "tfidf_score": 0.16624112937941754,
+      "dependency_support": 0.0,
+      "graph_degree": 7
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values-el/strings.xml",
+      "score": 0.01230769230769231,
+      "tfidf_score": 0.1492844217013036,
+      "dependency_support": 0.0,
+      "graph_degree": 2
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/categories/CategoriesPresenter.kt",
+      "score": 0.012301587301587303,
+      "tfidf_score": 0.1379207796520447,
+      "dependency_support": 0.0154532397007366,
+      "graph_degree": 13
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/values-krc/strings.xml",
+      "score": 0.012121212121212123,
+      "tfidf_score": 0.1482986832608717,
+      "dependency_support": 0.0,
+      "graph_degree": 2
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/profile/achievements/Achievements.kt",
+      "score": 0.012114695340501792,
+      "tfidf_score": 0.13293069962202425,
+      "dependency_support": 0.22727139008276964,
+      "graph_degree": 81
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/res/values-iw/strings.xml",
+      "score": 0.011940298507462687,
+      "tfidf_score": 0.14610315898308904,
+      "dependency_support": 0.0,
+      "graph_degree": 2
+    }
+  ]
+}

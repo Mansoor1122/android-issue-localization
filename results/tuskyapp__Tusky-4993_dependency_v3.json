@@ -1,0 +1,96 @@
+{
+  "instance_id": "tuskyapp__Tusky-4993",
+  "base_sha": "271514f2ce5f57fc01aa1e9987e18fbeb0dad684",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 753,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.123361667522988,
+      "dependency_support": 0.11105319591413401,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/res/values-ja/strings.xml",
+      "score": 0.016129032258064516,
+      "tfidf_score": 0.11574535742978485,
+      "dependency_support": 0.10419680694090884,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values-zh-rCN/strings.xml",
+      "score": 0.015674603174603174,
+      "tfidf_score": 0.11127065739020472,
+      "dependency_support": 0.10016857231883815,
+      "graph_degree": 0
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/res/values-el/strings.xml",
+      "score": 0.015246212121212122,
+      "tfidf_score": 0.10831798593723604,
+      "dependency_support": 0.09751050512567623,
+      "graph_degree": 0
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/res/values-ru/strings.xml",
+      "score": 0.015017221584385764,
+      "tfidf_score": 0.10814216290957797,
+      "dependency_support": 0.09735222492787418,
+      "graph_degree": 0
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/viewdata/TrendingViewData.kt",
+      "score": 0.015010395010395012,
+      "tfidf_score": 0.10969586297752588,
+      "dependency_support": 0.031674938360859974,
+      "graph_degree": 6
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/res/values-fa/strings.xml",
+      "score": 0.014795008912655972,
+      "tfidf_score": 0.10798839136342817,
+      "dependency_support": 0.09721379601406746,
+      "graph_degree": 0
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/TrendingTagsResult.kt",
+      "score": 0.014371980676328503,
+      "tfidf_score": 0.1078032380843405,
+      "dependency_support": 0.031674938360859974,
+      "graph_degree": 2
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/ViewDataUtils.kt",
+      "score": 0.014369747899159664,
+      "tfidf_score": 0.10555679688601108,
+      "dependency_support": 0.06498204221437646,
+      "graph_degree": 3
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/trending/viewmodel/TrendingTagsViewModel.kt",
+      "score": 0.01340821340821341,
+      "tfidf_score": 0.10058476936151212,
+      "dependency_support": 0.016458483966724776,
+      "graph_degree": 6
+    }
+  ]
+}

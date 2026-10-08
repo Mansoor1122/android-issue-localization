@@ -1,0 +1,60 @@
+{
+  "instance_id": "AntennaPod__AntennaPod-7954",
+  "base_sha": "944e0690ba5a070ad02834a3c3d90946bf3ee738",
+  "method": "tfidf",
+  "indexed_files": 939,
+  "skipped_files": [],
+  "query": "Display podcast tags at the top of the Subscriptions screen\n# Checklist\r\n\r\n- [x ] I have used the search function to see if someone else has already submitted the same feature request.\r\n- [x ] I will only create one feature request per issue.\r\n- [x ] I will describe the problem with as much detail as possible.\r\n\r\n# System info\r\n\r\n**App version**: 2.2.1\r\n**Source**: F-Droid\r\n\r\n# Feature description\r\n\r\nCurrently I have around 40 subscriptions of podcasts with a vast range of topics: Local audiobooks, history, linux, politics, travel, languages etc. \r\nTherefore, it's hard to find straight forward the right podcast.  Unfortunately the sorting and the filter feature are hardly helpful here.\r\n\r\n\r\n\r\n**Suggested solution**:\r\nCategories, as I have already mentioned a few above, which the user could create and to which the user could add podcasts.\r\n\r\n\r\n**Screenshots / Drawings / Technical details**:\r\n\r\nThere could be two sort of tiles now: Category tiles on top and podcast tiles below, which have not yet been categorized.\r\n\r\n![MockUp_small](https://user-images.githubusercontent.com/43318127/127771255-f46ef271-7f66-4282-b88f-9790109107d7.png)       ![MockUp2_small](https://user-images.githubusercontent.com/43318127/127776861-a9aee853-86d1-466a-97d2-679da568ff24.png)\r\n\r\n\r\n\r\n\r\nThe user could add a new category with some custom name and icon via the context menu of the three dots on the top right.\r\nPodcasts could be assigned a category or more categories by\r\n* drag and drop\r\n* long press on a podcast, add to category: A cateogry chooser would open\r\n* In the opened categories folder, there could be a button \"add podcast\" or \"add existing podcast\"\r\n\r\nIf the user clicks on the category, it opens and presents all containing podcasts. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "ui/i18n/src/main/res/values/strings.xml",
+      "score": 0.2297193349190394
+    },
+    {
+      "rank": 2,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/FeedDatabaseWriter.java",
+      "score": 0.1957003043455594
+    },
+    {
+      "rank": 3,
+      "path": "playback/base/src/main/java/de/danoeh/antennapod/playback/base/PlaybackServiceMediaPlayer.java",
+      "score": 0.18219155216114455
+    },
+    {
+      "rank": 4,
+      "path": "model/src/main/java/de/danoeh/antennapod/model/feed/FeedItem.java",
+      "score": 0.16878835348360283
+    },
+    {
+      "rank": 5,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBReader.java",
+      "score": 0.1666722377204386
+    },
+    {
+      "rank": 6,
+      "path": "model/src/main/java/de/danoeh/antennapod/model/feed/Feed.java",
+      "score": 0.1651797842625213
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/de/danoeh/antennapod/ui/screen/queue/QueueFragment.java",
+      "score": 0.16474176631008025
+    },
+    {
+      "rank": 8,
+      "path": "storage/database/src/main/java/de/danoeh/antennapod/storage/database/DBWriter.java",
+      "score": 0.16359991766160722
+    },
+    {
+      "rank": 9,
+      "path": "storage/preferences/src/main/java/de/danoeh/antennapod/storage/preferences/UserPreferences.java",
+      "score": 0.1587710633004545
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/de/danoeh/antennapod/activity/MainActivity.java",
+      "score": 0.15724815640843023
+    }
+  ]
+}

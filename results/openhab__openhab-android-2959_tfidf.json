@@ -1,0 +1,60 @@
+{
+  "instance_id": "openhab__openhab-android-2959",
+  "base_sha": "f3df754edb0f47dd31f27f9977d3676196d35e92",
+  "method": "tfidf",
+  "indexed_files": 621,
+  "skipped_files": [],
+  "query": "Support of command options\nItems with command options are currently rendered as a simple switch (commands are so ignored).\r\n\r\nThese items, when associated to a Switch widget, should be rendered similar as items with state options, that is with one button for each command/state.\r\n\r\nPS: I was planning to replace few switch channels in bindings by string channels with command options, but until it is supported by the Android app, it is not worth it.\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "mobile/src/main/java/org/openhab/habdroid/util/SuggestedCommandsFactory.kt",
+      "score": 0.24084595373870152
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/TaskerItemPickerActivity.kt",
+      "score": 0.1918925568305824
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/AbstractItemPickerActivity.kt",
+      "score": 0.19116946172286506
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/res/values/strings.xml",
+      "score": 0.18104098922914263
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/NfcItemPickerActivity.kt",
+      "score": 0.18065623141747386
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/BasicItemPickerActivity.kt",
+      "score": 0.17437563139877102
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/WidgetListFragment.kt",
+      "score": 0.17084578192775393
+    },
+    {
+      "rank": 8,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/WidgetAdapter.kt",
+      "score": 0.16809589949581782
+    },
+    {
+      "rank": 9,
+      "path": "mobile/src/main/java/org/openhab/habdroid/background/BackgroundTasksManager.kt",
+      "score": 0.1655725143271483
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/java/org/openhab/habdroid/model/Widget.kt",
+      "score": 0.16543441555879282
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "instance_id": "commons-app__apps-android-commons-5947",
+  "base_sha": "fe347c21fdede145e6a945750aa43a6de7ec24eb",
+  "method": "dependency_v2",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 1178,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/Language.kt",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.21555448271036462,
+      "dependency_support": 0.12804944027432344,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadClient.java",
+      "score": 0.015674603174603174,
+      "tfidf_score": 0.16839500099220317,
+      "dependency_support": 0.10003450334651258,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "jacoco.gradle",
+      "score": 0.012903225806451613,
+      "tfidf_score": 0.21293736048764136,
+      "dependency_support": 0.0,
+      "graph_degree": 5
+    },
+    {
+      "rank": 4,
+      "path": "app/build.gradle",
+      "score": 0.012698412698412698,
+      "tfidf_score": 0.17336439947747379,
+      "dependency_support": 0.0,
+      "graph_degree": 5
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/nearby/PageEditHelper.java",
+      "score": 0.01230769230769231,
+      "tfidf_score": 0.16424285113667408,
+      "dependency_support": 0.0,
+      "graph_degree": 7
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values/attrs.xml",
+      "score": 0.012121212121212123,
+      "tfidf_score": 0.1553838922179838,
+      "dependency_support": 0.0,
+      "graph_degree": 2
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/delete/DeleteHelper.java",
+      "score": 0.011940298507462687,
+      "tfidf_score": 0.15515745709361364,
+      "dependency_support": 0.0,
+      "graph_degree": 11
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/description/EditDescriptionConstants.kt",
+      "score": 0.011764705882352941,
+      "tfidf_score": 0.1525966770812164,
+      "dependency_support": 0.0,
+      "graph_degree": 2
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/di/ExploreMapFragmentModule.kt",
+      "score": 0.011594202898550725,
+      "tfidf_score": 0.14345988729779482,
+      "dependency_support": 0.0,
+      "graph_degree": 3
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/di/NearbyParentFragmentModule.kt",
+      "score": 0.011428571428571429,
+      "tfidf_score": 0.1422771827219344,
+      "dependency_support": 0.0,
+      "graph_degree": 3
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-4152",
+  "base_sha": "a7e0fa26b7ba60ce996cf6e19c9b496750b1b1d4",
+  "method": "tfidf",
+  "indexed_files": 694,
+  "skipped_files": [],
+  "query": "emoji character count\n[Issue text goes here].\r\n\r\n* * * *\r\n- Tusky Version: 23\r\n- Android Version: 13\r\n- Android Device: Xiaomi note 10 pro\r\n- Mastodon instance (if applicable): mastodon.uno\r\n\r\n- [x ] I searched or browsed the repo’s other issues to ensure this is not a duplicate.\r\n\r\nWhen I use an emoji inside a toot it is counted as if I inserted 3, in other apps it is counted as a single character\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/lint.xml",
+      "score": 0.16316676401235553
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/compose/ComposeTokenizer.kt",
+      "score": 0.16157472961535696
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.1298091096704126
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/account/AccountPagerAdapter.kt",
+      "score": 0.12661205562069042
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/announcements/AnnouncementsViewModel.kt",
+      "score": 0.12659031657750652
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/service/ServiceClient.kt",
+      "score": 0.1252165956354891
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/viewthread/edits/ViewEditsAdapter.kt",
+      "score": 0.12183048009572447
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/values-ta/strings.xml",
+      "score": 0.12120799529669614
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/StatusViewHelper.kt",
+      "score": 0.12047152345656588
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/instanceinfo/InstanceInfoRepository.kt",
+      "score": 0.11880186325705419
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "instance_id": "commons-app__apps-android-commons-5851",
+  "base_sha": "95e0a0d143725ebb3079222c3fbb8dca3cff129a",
+  "method": "tfidf",
+  "indexed_files": 1174,
+  "skipped_files": [],
+  "query": "Remove unnecessary request code checks while handling file picker results\nWhile working on #5849, I saw, there are some problems with handling request codes in `FilePicker.java` \r\n\r\nI chose not to include these changes in the refactor (refer #5849) because these are distinct changes which should be addressed separately and it'd easier to understand from git history.\r\n\r\nProblems were ->\r\n\r\n- Capture Video flag was still being checked even though we never use it in any intent to launch anything.\r\n\r\n- Even when using `Document PIcker` (default) , the `Intent` created for launching it, is passed with `Gallery Picker/Photo Picker` `requestCode` which means for both of the  methods result will be handled by only Gallery picker's callback. Though I'm not sure if this lead to any bug but still we should be using respective callbacks.\r\n\r\n\r\n\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java",
+      "score": 0.22933679228142004
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/filepicker/DefaultCallback.java",
+      "score": 0.22070685100954124
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/mediaDetails/UploadMediaPresenter.java",
+      "score": 0.17884338835475005
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.17142281937533246
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/mediaDetails/UploadMediaDetailFragment.java",
+      "score": 0.17062034758150935
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.java",
+      "score": 0.16602371492727233
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/contributions/ContributionController.java",
+      "score": 0.15873960327728498
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/utils/PermissionUtils.java",
+      "score": 0.1552786770821656
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/location/LocationPermissionsHelper.java",
+      "score": 0.15460789992560448
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/settings/SettingsFragment.java",
+      "score": 0.15190040562944762
+    }
+  ]
+}

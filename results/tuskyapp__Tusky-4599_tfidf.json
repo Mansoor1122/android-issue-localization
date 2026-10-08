@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-4599",
+  "base_sha": "9abf02a6c52aa1d915c7d416fa67991bda731df8",
+  "method": "tfidf",
+  "indexed_files": 704,
+  "skipped_files": [],
+  "query": "With multiple accounts, sometimes the wrong home timeline is shown\nI have experienced a problem with multiple accounts set up in Tusky where after switching from account 2 (pixelfed) to account 1 (mastodon), the home timeline of account 2 (pixelfed) would be shown and even after switching back and forth between accounts it would stay that way. Only way to fix it seems to be deleting the account showing the wrong timeline from Tusky and adding it again.\r\n\r\nI have seen this several times recently (since 24 beta and now in 24), not sure if I had it before. I have not found a way to reproduce it yet. I don't know if the networks are relevant, I added them just in case.\r\n\r\n* * * *\r\n- Tusky Version: 24\r\n- Android Version: Lineageos 20 (Android 13)\r\n\r\n- [x] I searched or browsed the repo’s other issues to ensure this is not a duplicate.\r\n\nOld posts from other account shown on timeline, before posts from correct account.\n### Detailed description\r\n\r\nI have several accounts (let's call them A, B, C ... F) in Tusky on Android. Several of these are on Mastodon servers, and others are on GoToSocial servers. One of those GoToSocial servers, constellation.home.nora.codes, has extremely limited federation; the posts on that instance should exist on 2 other servers, exclusively (mutual federation, but none of us federate anywhere else). Let's call that account F.\r\n\r\nHowever, sometimes when I add accounts to Tusky, some other accounts - say, B and D - show 30 - 32 old (May of this year) posts from that instance in their home timeline. Refreshing and clearing cache do nothing; logging out of F does nothing; logging out of B and D and back in *sometimes* fixes the issue. Reinstalling the app sometimes fixes the issue. Scrolling down shows posts from B or D's timeline below the 30 errant posts.\r\n\r\nThere is no way the instances for accounts B and D have any knowledge of posts from constellation.home.nora.codes, so I think this is purely a client issue.\r\n\r\n### Steps to reproduce the problem\r\n\r\n_No response_\r\n\r\n### Debug information\r\n\r\nGoogle Pixel 6a\r\nAndroid version: 13\r\nSDK version: 33\r\nTusky 25.2 (but has been happening since months ago)\r\nconstellation.home.nora.codes (GoToSocial) and types.pl (Mastodon)\nTusky 26 showing notifications tab from wrong account\n### Detailed description\n\nI'm using Tusky with three different Mastodon accounts (all different instances). Since the update to v26 (F-droid), the notifications tab for account_A@imaginair.es shows notifications for the latest other account to be opened.\r\n\r\nI have tried to solve the issue by force stopping Tusky and clearing the app cache, same result. Checked imaginair.es which can sometimes be bottlenecked, it's up so shouldn't be the issue.\r\n\r\nI imagine this has to do with the new notifications cache?\n\n### Steps to reproduce the problem\n\n1. Use Tusky v26 with multiple accounts\r\n2. Switch between accounts\r\n3. Open notifications tab\r\n\r\nExpected: see notifications for the current account.\r\nIssue: notifications for the latest used account shown instead.\n\n### Debug information\n\nTusky 26.0\r\n\r\nDevice:\r\n\r\nOnePlus ONEPLUS A6003\r\nAndroid version: 10\r\nSDK version: 29\r\n\r\nAccount:\r\n\r\n@REDACTED@imaginair.es\r\nVersion: 4.3.0-alpha.3+glitch\nOld toots stuck on top of home timeline\nHi,\r\n\r\nAfter going on my profile and scrolling to an old toot (knew I tooted it 2022-07-25, so just scrolled there), my home timeline now has toots from roughly that period stuck on top - fresh toots starting ~8 screen sizes below them.\r\n\r\nThe stuck ones seem to be non-contiguous, I think I should have had more toots in home as it shows. The fresh ones are refreshed, but stay at their place below the stuck ones.\r\n\r\nI tried purging the app cache and switching tabs and accounts, without success.\r\n\r\nThis is pretty obscure, not sure what other info could be useful here or how to reproduce it.. some slightly rusted android dev skills are available, so feel free to ask for any adb thing (or something else) that might help diagnose the problem :)\r\n\r\n* * * *\r\n- Tusky Version: 19.0\r\n- Android Version: 12 (SQ3A.220705.003)\r\n- Android Device: Pixel 6 Pro\r\n- Mastodon instance (if applicable): mastodon.social\r\n\r\n- [x] I searched or browsed the repo’s other issues to ensure this is not a duplicate (browsed issues for some pages).\r\n\nMultiple accounts bug: boosts from one account's home timeline appear in another's\n### Detailed description\n\nI have multiple accounts connected to Tusky.\r\nAccount 1 follows maloki. Account 2 does not.\r\nmultiple boosts from maloki appeared today in Account 2's home timeline.\r\n![Screenshot_20240428-213752_Tusky](https://github.com/tuskyapp/Tusky/assets/109424320/5023f3dc-d920-4566-81e4-126f69a7d6fa)\r\ntrying to view the post or the boosting account results in an error:\r\n![Screenshot_20240428-212743_Tusky](https://github.com/tuskyapp/Tusky/assets/109424320/24a513cc-6903-424c-a4a2-92fb89da1d95)\r\n![Screenshot_20240428-213803_Tusky](https://github.com/tuskyapp/Tusky/assets/109424320/c27ffdd2-240b-41a4-aa7e-038bc0679af9)\r\n\n\n### Steps to reproduce the problem\n\n1. Connect Tusky to multiple accounts\r\n2. Have Account 1 follow Some User.\r\n3. Browse the home timeline of Account 2\r\n4. boosts from Some Account appear in Account 2's timeline\r\n\n\n### Debug information\n\nTusky 25.0 beta 1\r\n\r\nDevice:\r\n\r\nsamsung SM-A125F\r\nAndroid version: 12\r\nSDK version: 31\r\n\r\nAccount:\r\n\r\n@yuvalne@tooot.im\r\nVersion: 4.2.8\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.2818644475465034
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/systemnotifications/NotificationFetcher.kt",
+      "score": 0.19881683983083515
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/timeline/viewmodel/CachedTimelineRemoteMediator.kt",
+      "score": 0.1939503167054776
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsRemoteMediator.kt",
+      "score": 0.19322257293406717
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/view/ClickableSpanTextView.kt",
+      "score": 0.19230424055156284
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values-zh-rCN/strings.xml",
+      "score": 0.18418271054129756
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/entity/AccountEntity.kt",
+      "score": 0.18285951605175424
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/timeline/viewmodel/CachedTimelineViewModel.kt",
+      "score": 0.18146547919000328
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/fragment/ViewImageFragment.kt",
+      "score": 0.17947883455173955
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/res/values-fa/strings.xml",
+      "score": 0.17899338413409807
+    }
+  ]
+}

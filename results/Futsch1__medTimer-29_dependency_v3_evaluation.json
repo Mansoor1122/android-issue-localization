@@ -1,0 +1,76 @@
+{
+  "instance_id": "Futsch1__medTimer-29",
+  "method": "dependency_v3",
+  "base_sha": "43719af52d91f0e48ccdaa5a9a6554e924137649",
+  "all_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRoomDatabase.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Reminder.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/MedicineViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/MedicinesFragment.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewAdapter.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/reminders/ReminderScheduler.java",
+    "app/src/main/res/layout/fragment_reminder.xml",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values/strings.xml"
+  ],
+  "existing_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRoomDatabase.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Reminder.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/MedicineViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/MedicinesFragment.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewAdapter.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/reminders/ReminderScheduler.java",
+    "app/src/main/res/layout/fragment_reminder.xml",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values/strings.xml"
+  ],
+  "indexable_targets": [
+    "app/build.gradle.kts",
+    "app/src/main/java/com/futsch1/medtimer/database/MedicineRoomDatabase.java",
+    "app/src/main/java/com/futsch1/medtimer/database/Reminder.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/MedicineViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/MedicinesFragment.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewAdapter.java",
+    "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+    "app/src/main/java/com/futsch1/medtimer/reminders/ReminderScheduler.java",
+    "app/src/main/res/layout/fragment_reminder.xml",
+    "app/src/main/res/values-de/strings.xml",
+    "app/src/main/res/values/strings.xml"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+        "app/src/main/java/com/futsch1/medtimer/reminders/ReminderScheduler.java",
+        "app/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.6,
+      "all_target_recall": 0.2727272727272727,
+      "existing_target_recall": 0.2727272727272727,
+      "indexable_target_recall": 0.2727272727272727,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/com/futsch1/medtimer/database/Reminder.java",
+        "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewAdapter.java",
+        "app/src/main/java/com/futsch1/medtimer/medicine/ReminderViewHolder.java",
+        "app/src/main/java/com/futsch1/medtimer/reminders/ReminderScheduler.java",
+        "app/src/main/res/values/strings.xml"
+      ],
+      "precision": 0.5,
+      "all_target_recall": 0.45454545454545453,
+      "existing_target_recall": 0.45454545454545453,
+      "indexable_target_recall": 0.45454545454545453,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

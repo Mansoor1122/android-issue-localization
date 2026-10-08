@@ -1,0 +1,81 @@
+{
+  "instance_id": "tuskyapp__Tusky-4638",
+  "base_sha": "da54cda88ecc855998eed574862bf07454e0c882",
+  "method": "dependency",
+  "restart_weight": 0.5,
+  "indexed_files": 705,
+  "skipped_files": [],
+  "graph_edges": 2695,
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+      "score": 0.04399679294783935,
+      "tfidf_score": 0.10485096561224395,
+      "graph_degree": 331
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/network/MediaUploadApi.kt",
+      "score": 0.036672606068812966,
+      "tfidf_score": 0.050729278634708705,
+      "graph_degree": 292
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/view/TuskySwipeRefreshLayout.kt",
+      "score": 0.03355160304253909,
+      "tfidf_score": 0.1141082458214823,
+      "graph_degree": 230
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/network/MastodonApi.kt",
+      "score": 0.009864247707453443,
+      "tfidf_score": 0.06655603564959287,
+      "graph_degree": 92
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/settings/SettingsConstants.kt",
+      "score": 0.007577335649958031,
+      "tfidf_score": 0.07636260479859876,
+      "graph_degree": 74
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Status.kt",
+      "score": 0.00729250073801611,
+      "tfidf_score": 0.06520767407472386,
+      "graph_degree": 71
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Emoji.kt",
+      "score": 0.006300716596176802,
+      "tfidf_score": 0.06863977523515462,
+      "graph_degree": 46
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/AccountManager.kt",
+      "score": 0.005715463103607418,
+      "tfidf_score": 0.07872666492019015,
+      "graph_degree": 55
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/compose/ComposeActivity.kt",
+      "score": 0.005301645092227279,
+      "tfidf_score": 0.08809010691153696,
+      "graph_degree": 45
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/TimelineAccount.kt",
+      "score": 0.004899911393342834,
+      "tfidf_score": 0.07429425498841821,
+      "graph_degree": 41
+    }
+  ]
+}

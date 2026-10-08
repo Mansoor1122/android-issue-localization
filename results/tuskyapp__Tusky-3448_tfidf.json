@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-3448",
+  "base_sha": "3bb92d51bf8331c57ed2a24f3f816039ad641e19",
+  "method": "tfidf",
+  "indexed_files": 677,
+  "skipped_files": [],
+  "query": "Error message handling for notifications still needs work\nhttps://github.com/tuskyapp/Tusky/pull/3440 displayed error text when notifications fail to load because of the server, but the presentation of that can still be improved. I caught an error from mastodon.social a moment ago, and it currently looks like this:\r\n\r\n<img src=\"https://user-images.githubusercontent.com/773100/224696114-f41bcd30-fcb2-42ca-9ed4-3ca1487fb1d4.png\" width=\"60%\">\r\n\r\nThat's obviously a JSON representation of the error. That's lead me to https://docs.joinmastodon.org/entities/Error/, so the right thing to do here is probably to decode this and present the error to user. Probably as:\r\n\r\n```\r\n<http error code>: <error>\r\n\r\n<error description>\r\n```\r\n\r\nI want to avoid hiding this info behind a generic \"An error occurred\" message because it makes it impossible to troubleshoot user reports of problems.\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsLoadStateViewHolder.kt",
+      "score": 0.18387738298604656
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/ThrowableExtensions.kt",
+      "score": 0.17720746899671283
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.17023104308741835
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/NotificationTypeConverter.kt",
+      "score": 0.16734611627236937
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Notification.kt",
+      "score": 0.16640700608448958
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/notifications/NotificationsViewModel.kt",
+      "score": 0.15708120691539318
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/TimelineStatusEntity.kt",
+      "score": 0.14438862282919493
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/values-en-rGB/strings.xml",
+      "score": 0.14012104339016235
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/res/layout/item_status_placeholder.xml",
+      "score": 0.13813345280589867
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/util/FocalPointUtil.kt",
+      "score": 0.13739473498148233
+    }
+  ]
+}

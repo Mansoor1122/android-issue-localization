@@ -1,0 +1,60 @@
+{
+  "instance_id": "Futsch1__medTimer-584",
+  "base_sha": "c0f542345ea0d1925d6b1e28ce807d4ecc6de035",
+  "method": "tfidf",
+  "indexed_files": 259,
+  "skipped_files": [],
+  "query": "Simplify the content of notifications\n**Is your feature request related to a problem? Please describe.**\nI liked it at first, `It is 12:33 - time to take 1x of Vitamin D` is quite informative, but with multiple notifcations it's a bit unreadable and most of the notification text seems redundant.\n\n**Describe the solution you'd like**\nI'd like to keep it simple; either add a new setting or cut out unwanted text. You may prefer the former, as it's possible that not all launchers will display the time label in the notification line.\n\nJust `1x of Vitamin D` with the current notification title looks more appealing to me.\nChange police notification color when medicine stock is low\nI'd like to know if it could be possible to change police notification color when medicine stock is low?\nBy doing so, it will make more obvious to the app user that he/she has to worry about the medicine stock each time a notification reminders pop, until a refill above minimal stock level is set.\n\nI don't know if Androïd notification can have a different police colour and if yes, if it can be supported in all Androïd version, so maybe this feature request can't be achieved. \n\nWhat do you think?\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.3338342155713551
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/scheduling/StandardScheduling.kt",
+      "score": 0.25402286453816714
+    },
+    {
+      "rank": 3,
+      "path": "gradle.properties",
+      "score": 0.2424877466112665
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/Notifications.java",
+      "score": 0.19211417133776135
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/RescheduleWork.java",
+      "score": 0.1915084319414124
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/NotificationAction.java",
+      "score": 0.18353377035785592
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/futsch1/medtimer/reminders/ReminderWork.java",
+      "score": 0.17625774943473868
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/futsch1/medtimer/medicine/MedicineStockFragment.kt",
+      "score": 0.1664654769048453
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/res/values-zh-rCN/strings.xml",
+      "score": 0.1605734046517503
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/futsch1/medtimer/MedicineViewModel.kt",
+      "score": 0.15743468421717713
+    }
+  ]
+}

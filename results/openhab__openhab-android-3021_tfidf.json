@@ -1,0 +1,60 @@
+{
+  "instance_id": "openhab__openhab-android-3021",
+  "base_sha": "2b164c8b66bc0316a99181325ea9eaa9d36158a3",
+  "method": "tfidf",
+  "indexed_files": 626,
+  "skipped_files": [],
+  "query": "Split PreferencesActivity.kt in smaller files\nThe file has grown to big and should be split into multiple smaller files:\r\n* One \"main\" file\r\n* One file per fragment\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": ".idea/scopes/Kotlin_files.xml",
+      "score": 0.21469235423392122
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/ContentControllerOnePane.kt",
+      "score": 0.12064211913538533
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/java/org/openhab/habdroid/model/ParsedState.kt",
+      "score": 0.11384505977011837
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/java/org/openhab/habdroid/model/WebViewUi.kt",
+      "score": 0.11136036217332035
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/java/org/openhab/habdroid/util/TaskerIntent.kt",
+      "score": 0.10692578329609805
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/HabpanelWebViewFragment.kt",
+      "score": 0.1063749583882054
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/FrontailWebViewFragment.kt",
+      "score": 0.09698702017887179
+    },
+    {
+      "rank": 8,
+      "path": "mobile/src/main/java/org/openhab/habdroid/core/connection/ConnectionExceptions.kt",
+      "score": 0.09361376554710756
+    },
+    {
+      "rank": 9,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/activity/Oh3UiWebViewFragment.kt",
+      "score": 0.09322538567235122
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/IntroActivity.kt",
+      "score": 0.08656708838915886
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "instance_id": "commons-app__apps-android-commons-6041",
+  "base_sha": "5500b039762b63d18b794bb0bc68d2a84a495166",
+  "method": "tfidf",
+  "indexed_files": 1179,
+  "skipped_files": [],
+  "query": "Add pull down sync\nInstall the app on two different cell phones. Take some pictures and upload them on one cell phone, then do the same on the different cell phone.\n\nNow back on the first cell phone pull down on the screen (refresh action), expecting to be able to see the pictures that one took on the other cell phone.\n\nNot only does the screen not pull down to refresh, the other pictures don't suddenly arrive either.\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.16061972105286798
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/customselector/helper/OnSwipeTouchListener.kt",
+      "score": 0.13591961196219762
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/res/values-qq/strings.xml",
+      "score": 0.1323303537375453
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/utils/NearbyFABUtils.kt",
+      "score": 0.1285102947718425
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/res/values-ar/strings.xml",
+      "score": 0.1258747035503991
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/res/values-iw/strings.xml",
+      "score": 0.12321000009872486
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/categories/CategoriesContract.kt",
+      "score": 0.122806974233546
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/res/values-uk/strings.xml",
+      "score": 0.12250896281913826
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/depicts/DepictsContract.kt",
+      "score": 0.12133793015586433
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/ZoomableActivity.kt",
+      "score": 0.1213063508929959
+    }
+  ]
+}

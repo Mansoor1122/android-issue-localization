@@ -1,0 +1,96 @@
+{
+  "instance_id": "openhab__openhab-android-2925",
+  "base_sha": "1baee50328207731213ada3297407d9cfefd04f3",
+  "method": "dependency_v3",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 620,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "mobile/src/main/res/values/strings.xml",
+      "score": 0.016181914331041776,
+      "tfidf_score": 0.17394238477169707,
+      "dependency_support": 0.10741435543648004,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "mobile/src/main/java/org/openhab/habdroid/core/connection/Connection.kt",
+      "score": 0.01585448012575792,
+      "tfidf_score": 0.189245374890488,
+      "dependency_support": 0.013019350526725836,
+      "graph_degree": 20
+    },
+    {
+      "rank": 3,
+      "path": "mobile/src/main/res/drawable/ic_spinner_caret_themed.xml",
+      "score": 0.015725806451612905,
+      "tfidf_score": 0.16150216138063786,
+      "dependency_support": 0.09973216469964315,
+      "graph_degree": 0
+    },
+    {
+      "rank": 4,
+      "path": "mobile/src/main/res/values-da/strings.xml",
+      "score": 0.015482295482295485,
+      "tfidf_score": 0.1597950500688528,
+      "dependency_support": 0.09867797505256898,
+      "graph_degree": 0
+    },
+    {
+      "rank": 5,
+      "path": "mobile/src/main/res/drawable-night/ic_spinner_caret_themed.xml",
+      "score": 0.015246212121212122,
+      "tfidf_score": 0.15963111221116183,
+      "dependency_support": 0.09857673877632368,
+      "graph_degree": 0
+    },
+    {
+      "rank": 6,
+      "path": "mobile/src/main/java/org/openhab/habdroid/background/ItemsControlsProviderService.kt",
+      "score": 0.015198412698412699,
+      "tfidf_score": 0.1686640017226773,
+      "dependency_support": 0.005843219290651118,
+      "graph_degree": 8
+    },
+    {
+      "rank": 7,
+      "path": "mobile/src/main/res/values-is/strings.xml",
+      "score": 0.014795008912655972,
+      "tfidf_score": 0.1514365041245816,
+      "dependency_support": 0.09351633589159902,
+      "graph_degree": 0
+    },
+    {
+      "rank": 8,
+      "path": "assets/store_descriptions/en-US/strings.xml",
+      "score": 0.014579277525416396,
+      "tfidf_score": 0.14953759280073875,
+      "dependency_support": 0.09234370429781394,
+      "graph_degree": 0
+    },
+    {
+      "rank": 9,
+      "path": "mobile/src/main/res/values-hi/strings.xml",
+      "score": 0.014369747899159664,
+      "tfidf_score": 0.14944574543189182,
+      "dependency_support": 0.09228698594284727,
+      "graph_degree": 0
+    },
+    {
+      "rank": 10,
+      "path": "mobile/src/main/java/org/openhab/habdroid/ui/PreferencesActivity.kt",
+      "score": 0.012488687782805432,
+      "tfidf_score": 0.14091068991730826,
+      "dependency_support": 0.09643254987589486,
+      "graph_degree": 49
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "instance_id": "commons-app__apps-android-commons-5851",
+  "method": "tfidf",
+  "base_sha": "95e0a0d143725ebb3079222c3fbb8dca3cff129a",
+  "all_targets": [
+    "app/src/main/java/fr/free/nrw/commons/filepicker/Constants.java",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java"
+  ],
+  "existing_targets": [
+    "app/src/main/java/fr/free/nrw/commons/filepicker/Constants.java",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/fr/free/nrw/commons/filepicker/Constants.java",
+    "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [
+        "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java"
+      ],
+      "precision": 0.2,
+      "all_target_recall": 0.5,
+      "existing_target_recall": 0.5,
+      "indexable_target_recall": 0.5,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [
+        "app/src/main/java/fr/free/nrw/commons/filepicker/FilePicker.java"
+      ],
+      "precision": 0.1,
+      "all_target_recall": 0.5,
+      "existing_target_recall": 0.5,
+      "indexable_target_recall": 0.5,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}

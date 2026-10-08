@@ -1,0 +1,96 @@
+{
+  "instance_id": "commons-app__apps-android-commons-5833",
+  "base_sha": "950539c55c26881bcc2f148e5ffe3f2b0be2c45e",
+  "method": "dependency_v2",
+  "settings": {
+    "seed_count": 10,
+    "baseline_weight": 0.8,
+    "dependency_weight": 0.2,
+    "rank_constant": 60,
+    "expansion_steps": 1
+  },
+  "indexed_files": 1174,
+  "skipped_files": [],
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadClient.java",
+      "score": 0.01639344262295082,
+      "tfidf_score": 0.1825578678650835,
+      "dependency_support": 0.11914425407923646,
+      "graph_degree": 0
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/Language.kt",
+      "score": 0.015347018572825026,
+      "tfidf_score": 0.14425389021226903,
+      "dependency_support": 0.09414561173594917,
+      "graph_degree": 0
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/fr/free/nrw/commons/ui/PasteSensitiveTextInputEditText.java",
+      "score": 0.01476026836851579,
+      "tfidf_score": 0.16391582249257652,
+      "dependency_support": 0.005530111404670909,
+      "graph_degree": 7
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadMediaDetailAdapter.java",
+      "score": 0.014606965174129353,
+      "tfidf_score": 0.1440490020540044,
+      "dependency_support": 0.015282534504226055,
+      "graph_degree": 17
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadActivity.java",
+      "score": 0.01397030833650552,
+      "tfidf_score": 0.13189064843745324,
+      "dependency_support": 0.01560047778110016,
+      "graph_degree": 44
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/fr/free/nrw/commons/media/MediaDetailFragment.java",
+      "score": 0.01356521739130435,
+      "tfidf_score": 0.12966959828543012,
+      "dependency_support": 0.034315470068413935,
+      "graph_degree": 343
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/res/layout/row_item_description.xml",
+      "score": 0.01355630670699164,
+      "tfidf_score": 0.1303795477469727,
+      "dependency_support": 0.015282534504226055,
+      "graph_degree": 6
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/UploadResponse.kt",
+      "score": 0.012903225806451613,
+      "tfidf_score": 0.17462796560293675,
+      "dependency_support": 0.0,
+      "graph_degree": 3
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/fr/free/nrw/commons/upload/WikidataItem.kt",
+      "score": 0.0125,
+      "tfidf_score": 0.15450678593364525,
+      "dependency_support": 0.0,
+      "graph_degree": 4
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/fr/free/nrw/commons/di/ActivityBuilderModule.java",
+      "score": 0.01230769230769231,
+      "tfidf_score": 0.1499644603149122,
+      "dependency_support": 0.0,
+      "graph_degree": 25
+    }
+  ]
+}

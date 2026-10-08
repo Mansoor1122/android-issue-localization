@@ -1,0 +1,60 @@
+{
+  "instance_id": "tuskyapp__Tusky-2713",
+  "base_sha": "91d18998acac2116010d191922a8d61455243cf7",
+  "method": "tfidf",
+  "indexed_files": 582,
+  "skipped_files": [],
+  "query": "Filters with Hashtags not working\nI think we had this issue in the past, but here it is again. :)\r\n\r\nA filter for a hastag:\r\n\r\n![image](https://user-images.githubusercontent.com/42511384/183861683-31fb6792-6346-46dd-a9e9-cf9dc172388c.png)\r\n\r\nIt works in web:\r\n\r\n![image](https://user-images.githubusercontent.com/42511384/183861808-7196af5e-7734-49d6-b64a-557fb2abfb42.png)\r\n\r\nbut not in the app:\r\n\r\n![image](https://user-images.githubusercontent.com/42511384/183862106-4d623a37-4e06-4851-bf80-5d67c1b555e1.png)\r\n\r\nThings I've tried:\r\n\r\n- Restarting the phone\r\n- Restarting the app (force stop & cache delete)\r\n- Deleting and recreating the filter\r\n- Turning the \"whole word\" option on and off\r\n\r\n* * * *\r\n- Tusky Version: Tusky 19.0\r\n- Android Version: 12\r\n- Android Device: Samsung S21\r\n- Mastodon instance (if applicable):\r\n\r\n- [X] I searched or browsed the repo’s other (open) issues to ensure this is not a duplicate.\n",
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/res/values/strings.xml",
+      "score": 0.1598635372447399
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Filter.kt",
+      "score": 0.15581999938671398
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/account/AccountPagerAdapter.kt",
+      "score": 0.1513214924365921
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/search/SearchType.kt",
+      "score": 0.14888207488835717
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/SearchResult.kt",
+      "score": 0.14699170158092456
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/di/Injectable.kt",
+      "score": 0.14465700975958606
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Conversation.kt",
+      "score": 0.14382229675705407
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/interfaces/LinkListener.kt",
+      "score": 0.14265050404520327
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/MastoList.kt",
+      "score": 0.14045380628687237
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/StatusContext.kt",
+      "score": 0.1386144745699887
+    }
+  ]
+}

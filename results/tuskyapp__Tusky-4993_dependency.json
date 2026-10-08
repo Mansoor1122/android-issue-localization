@@ -1,0 +1,81 @@
+{
+  "instance_id": "tuskyapp__Tusky-4993",
+  "base_sha": "271514f2ce5f57fc01aa1e9987e18fbeb0dad684",
+  "method": "dependency",
+  "restart_weight": 0.5,
+  "indexed_files": 753,
+  "skipped_files": [],
+  "graph_edges": 3112,
+  "predictions": [
+    {
+      "rank": 1,
+      "path": "app/src/main/java/com/keylesspalace/tusky/components/filters/FilterExpiration.kt",
+      "score": 0.038334119618701715,
+      "tfidf_score": 0.03899191599703865,
+      "graph_degree": 359
+    },
+    {
+      "rank": 2,
+      "path": "app/src/main/java/com/keylesspalace/tusky/MainActivity.kt",
+      "score": 0.03721940977329018,
+      "tfidf_score": 0.06869437039575658,
+      "graph_degree": 357
+    },
+    {
+      "rank": 3,
+      "path": "app/src/main/java/com/keylesspalace/tusky/network/MediaUploadApi.kt",
+      "score": 0.028159396931500574,
+      "tfidf_score": 0.01656342110281983,
+      "graph_degree": 321
+    },
+    {
+      "rank": 4,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Notification.kt",
+      "score": 0.010956386483481375,
+      "tfidf_score": 0.035683687939037895,
+      "graph_degree": 129
+    },
+    {
+      "rank": 5,
+      "path": "app/src/main/java/com/keylesspalace/tusky/network/MastodonApi.kt",
+      "score": 0.008709277983283187,
+      "tfidf_score": 0.042274220249619764,
+      "graph_degree": 97
+    },
+    {
+      "rank": 6,
+      "path": "app/src/main/java/com/keylesspalace/tusky/settings/SettingsConstants.kt",
+      "score": 0.007456583693479827,
+      "tfidf_score": 0.0626709401693753,
+      "graph_degree": 92
+    },
+    {
+      "rank": 7,
+      "path": "app/src/main/java/com/keylesspalace/tusky/db/AccountManager.kt",
+      "score": 0.006748745585775123,
+      "tfidf_score": 0.06527560612663474,
+      "graph_degree": 85
+    },
+    {
+      "rank": 8,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/Emoji.kt",
+      "score": 0.006584425587301314,
+      "tfidf_score": 0.04781793938271789,
+      "graph_degree": 50
+    },
+    {
+      "rank": 9,
+      "path": "app/src/main/AndroidManifest.xml",
+      "score": 0.005665778021014042,
+      "tfidf_score": 0.05743903837787725,
+      "graph_degree": 44
+    },
+    {
+      "rank": 10,
+      "path": "app/src/main/java/com/keylesspalace/tusky/entity/TimelineAccount.kt",
+      "score": 0.004291055689829293,
+      "tfidf_score": 0.04698359735881958,
+      "graph_degree": 47
+    }
+  ]
+}

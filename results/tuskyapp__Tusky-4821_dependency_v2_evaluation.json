@@ -1,0 +1,36 @@
+{
+  "instance_id": "tuskyapp__Tusky-4821",
+  "method": "dependency_v2",
+  "base_sha": "55467affc811a430f983735dcc79ad71f628cd70",
+  "all_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/db/dao/NotificationsDao.kt"
+  ],
+  "existing_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/db/dao/NotificationsDao.kt"
+  ],
+  "indexable_targets": [
+    "app/src/main/java/com/keylesspalace/tusky/db/dao/NotificationsDao.kt"
+  ],
+  "unavailable_targets": [],
+  "excluded_paths": [],
+  "metrics": [
+    {
+      "k": 5,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    },
+    {
+      "k": 10,
+      "hits": [],
+      "precision": 0.0,
+      "all_target_recall": 0.0,
+      "existing_target_recall": 0.0,
+      "indexable_target_recall": 0.0,
+      "complete_existing_target_coverage": false
+    }
+  ]
+}
